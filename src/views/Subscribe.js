@@ -37,7 +37,7 @@ export default function Prefooter() {
   const [emailFocus2, setEmailFocus2] = React.useState(false);
   return (
     <>
-      <div className="section section-pre-footer">
+      <div className="section-signup-form">
         <div id="pre-footer-areas">
           <br />
           <div className="subscribe-line">

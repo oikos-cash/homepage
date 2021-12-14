@@ -27,7 +27,7 @@ export default function Synths() {
           <Row className="justify-content-center">
             <Col lg="8" md="12">
               <h2 className="title">Synthetic Assets</h2>
-              <h4 className="description">
+              {/* <h4 className="description">
                 BLK• Design System PRO React comes with 100 custom icons made by
                 our friends from NucleoApp.
               </h4>
@@ -49,14 +49,21 @@ export default function Synths() {
                 >
                   View Pools
                 </Button>
-              </div>
+              </div> */}
             </Col>
           </Row>
           <div className="">
-            <a href="https://demos.creative-tim.com/blk-design-system-pro-react/#/documentation/alert?ref=blkdspr-index">
-              <div className="icons-container blur-item on-screen mt-5">
+            <a href="https://oikos.exchange/">
+              <div className="icons-container on-screen mt-5">
                 {/* Center */}
                 <i className="icon tim-icons icon-coins" />
+                {/* <img
+                  src={require("assets/img/oBNB.png").default}
+                  className="icon tim-icons icon-coins"
+                  style={{
+                    maxWidth:"75px",
+                  }}
+                /> */}
                 {/* Right 1 */}
                 <i className="icon icon-sm tim-icons icon-spaceship" />
                 <i className="icon icon-sm tim-icons icon-money-coins" />

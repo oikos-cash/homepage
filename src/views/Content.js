@@ -29,11 +29,15 @@ export default function Content() {
               <div className="image-container">
                 <img
                   alt="..."
-                  className="img img-raised rounded img-comments rellax"
+                  className="img rounded img-comments rellax"
                   data-rellax-speed="1"
                   src={
-                    require("assets/img/presentation-page/content.png").default
+                    require("assets/img/tokens.png").default
                   }
+                  style={{
+                    maxWidth:"350px",
+                    marginTop:"-5vh",
+                  }}
                 />
               </div>
             </Col>
