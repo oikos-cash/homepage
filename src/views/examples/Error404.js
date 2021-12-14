@@ -20,8 +20,8 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 // core components
-import ColorNavbar from "components/Navbars/ColorNavbar.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import ColorNavbar from "components/ColorNavbar.js";
+import Footer from "components/Footer.js";
 
 export default function Error400() {
   const wrapper = React.useRef(null);
@@ -41,10 +41,10 @@ export default function Error400() {
         <div className="page-header error-page header-filter">
           <div
             className="page-header-image"
-            style={{
-              backgroundImage:
-                "url(" + require("assets/img/braden-collum.jpg").default + ")",
-            }}
+            // style={{
+            //   backgroundImage:
+            //     "url(" + require("assets/img/braden-collum.jpg").default + ")",
+            // }}
           />
           <Container>
             <Row>
@@ -58,7 +58,7 @@ export default function Error400() {
             </Row>
           </Container>
         </div>
-        <DemoFooter />
+        <Footer />
       </div>
     </>
   );

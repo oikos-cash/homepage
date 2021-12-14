@@ -29,7 +29,7 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 
-export default function DemoFooter() {
+export default function Footer() {
   return (
     <>
       <footer className="footer">

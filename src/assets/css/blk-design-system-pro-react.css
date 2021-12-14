@@ -16753,33 +16753,6 @@ Copyright (c) 2015 Daniel Eden
  * Copyright 2012-2013 Mattia Larentis
  * http://www.apache.org/licenses/LICENSE-2.0
  */
-.bootstrap-switch {
-  display: inline-block;
-  direction: ltr;
-  cursor: pointer;
-  border-radius: 30px;
-  border: 0;
-  position: relative;
-  text-align: left;
-  overflow: hidden;
-  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.13);
-  margin-bottom: 10px;
-  line-height: 8px;
-  width: 59px !important;
-  height: 22px;
-  outline: none;
-  z-index: 0;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  vertical-align: middle;
-  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/J9H9WF0/night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png");
-  background-position: center center;
-  background-size: cover; }
-
 .bootstrap-switch .bootstrap-switch-container {
   display: inline-flex;
   top: 0;
@@ -20860,7 +20833,6 @@ This file was modified entirely by Creative Tim for React-Select v2.0.0
     height: 22px;
     width: 45px;
     border: none;
-    background-image: url("~assets/img/darken-night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png");
     background-position: center center;
     background-size: cover; }
   .custom-switch .custom-control-label::after {
@@ -20868,9 +20840,6 @@ This file was modified entirely by Creative Tim for React-Select v2.0.0
     width: 18px;
     background-color: rgba(156, 156, 156, 0.9);
     transition: all 0.25s ease-out; }
-
-.custom-switch .custom-control-input:checked ~ .custom-control-label::before {
-  background-image: url("~assets/img/night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png"); }
 
 .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
   background-color: #ffffff;

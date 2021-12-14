@@ -16,61 +16,63 @@
 */
 import React from "react";
 
+// reactstrap components
+// import {
+//
+// } from "reactstrap";
+
 // core components
-import ColorNavbar from "components/Navbars/ColorNavbar.js";
-import IndexHeader from "components/Headers/IndexHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
+import ScrollNavbar from "components/ScrollNavbar.js";
+import Footer from "components/Footer.js";
+import ColorNavbar from "components/ColorNavbar.js";
 
 // Sections for this page
 // (we've divided this page into multiple react components to make it a bit more readable)
-import Basic from "./IndexSections/Basic.js";
-import Navbars from "./IndexSections/Navbars.js";
-import Tabs from "./IndexSections/Tabs.js";
-import Pills from "./IndexSections/Pills.js";
-import Pagination from "./IndexSections/Pagination.js";
-import Notifications from "./IndexSections/Notifications.js";
-import PreFooter from "./IndexSections/PreFooter.js";
-import Footers from "./IndexSections/Footers.js";
-import Typography from "./IndexSections/Typography.js";
-import ContentAreas from "./IndexSections/ContentAreas.js";
-import Cards from "./IndexSections/Cards.js";
-import PlainCards from "./IndexSections/PlainCards.js";
-import JavaScript from "./IndexSections/JavaScript.js";
-import NucleoIcons from "./IndexSections/NucleoIcons.js";
+import Header from "./Header.js";
+import Notifications from "./Notifications.js";
+import Content from "./Content.js";
+import Highlights from "./Highlights.js";
+import Team from "./Team.js";
+import Tools from "./Tools.js";
+import FAQ from "./FAQ.js";
+import Synths from "./Synths.js";
+import PreFooter from "./PreFooter.js";
 
-export default function Index() {
+export default function Sections() {
   const wrapper = React.useRef(null);
   React.useEffect(() => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
     wrapper.current.scrollTop = 0;
-    document.body.classList.add("index-page");
+    var href = window.location.href.substring(
+      window.location.href.lastIndexOf("#") + 1
+    );
+    if (
+      window.location.href.lastIndexOf("#") > 0 &&
+      document.getElementById(href) !== null
+    ) {
+      document.getElementById(href).scrollIntoView();
+    }
+    document.body.classList.add("sections-page");
     return function cleanup() {
-      document.body.classList.remove("index-page");
+      document.body.classList.remove("sections-page");
     };
   }, []);
   return (
     <>
       <ColorNavbar />
       <div className="wrapper" ref={wrapper}>
-        <IndexHeader />
-        <div className="main">
-          <Basic />
-          <Navbars />
-          <Tabs />
-          <Pills />
-          <Pagination />
-          <Notifications />
-          <PreFooter />
-          <Footers />
-          <Typography />
-          <ContentAreas />
-          <Cards />
-          <PlainCards />
-          <JavaScript />
-          <NucleoIcons />
-        </div>
-        <DemoFooter />
+        <div className="section-space" />
+        <Header />
+        <Notifications />
+        <Content />
+        <Highlights />
+        <Tools />
+        <Synths />
+        <Team />
+        <FAQ />
+        <PreFooter />
+        <Footer />
       </div>
     </>
   );
