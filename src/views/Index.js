@@ -22,7 +22,6 @@ import React from "react";
 // } from "reactstrap";
 
 // core components
-import ScrollNavbar from "components/ScrollNavbar.js";
 import Footer from "components/Footer.js";
 import ColorNavbar from "components/ColorNavbar.js";
 
@@ -37,6 +36,7 @@ import Tools from "./Tools.js";
 import FAQ from "./FAQ.js";
 import Synths from "./Synths.js";
 import PreFooter from "./PreFooter.js";
+import Subscribe from "./Subscribe.js";
 
 export default function Sections() {
   const wrapper = React.useRef(null);
@@ -53,9 +53,9 @@ export default function Sections() {
     ) {
       document.getElementById(href).scrollIntoView();
     }
-    document.body.classList.add("sections-page");
+    document.body.classList.add("index");
     return function cleanup() {
-      document.body.classList.remove("sections-page");
+      document.body.classList.remove("index");
     };
   }, []);
   return (
@@ -67,11 +67,12 @@ export default function Sections() {
         <Notifications />
         <Content />
         <Highlights />
-        <Tools />
         <Synths />
+        <Tools />
         <Team />
-        <FAQ />
         <PreFooter />
+        <FAQ />
+        <Subscribe />
         <Footer />
       </div>
     </>

@@ -35,24 +35,16 @@ export default function Content() {
                     require("assets/img/presentation-page/content.png").default
                   }
                 />
-                <img
-                  alt="..."
-                  className="img img-raised rounded img-blog rellax"
-                  data-rellax-speed="4"
-                  src={
-                    require("assets/img/presentation-page/content1.png").default
-                  }
-                />
               </div>
             </Col>
             <Col className="ml-auto mr-auto" lg="6">
               <div className="section-description">
-                <h1 className="title">Content Areas</h1>
-                <h5 className="category text-danger mb-5">
-                  <strong>For Areas that Need More Space</strong>
+                <h1 className="title">Decentralized Synthetic Assets</h1>
+                <h5 className="category text-info mb-5">
+                  <strong>On Binance Smart Chain (BSC)</strong>
                 </h5>
                 <p className="description">
-                  {`We took into consideration multiple use cases and came up with some specific areas for you. If you need elements such as tables, comments, description areas, tabs and many others, we've got you covered. They're beautiful and easy to use for the end user navigating your website.`}
+                  {`Synthetic asset platform that provides on-chain exposure to fiat currencies, commodities, stocks, and indices. Synthetic assets (Synths) are backed by Oikos Network Tokens (OKS) locked into a smart contract as collateral. Synths track the prices of various assets, allowing crypto-native and unbanked users to trade P2C (peer-to-contract) on Oikos Exchange without liquidity limitations.`}
                 </p>
               </div>
             </Col>

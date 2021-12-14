@@ -209,7 +209,6 @@ export default function FAQ() {
             </Row>
           </Container>
         </div>
-        {/* ********* END Accordion 1 ********* */}
       </div>
     </>
   );

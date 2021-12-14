@@ -112,58 +112,6 @@ export default function Prefooter() {
               </Row>
             </Container>
           </div>
-          <br />
-          <br />
-          {/* ********* IMAGE SUBSCRIBE LINE ********* */}
-          <div className="subscribe-line">
-            <Container>
-              <Row>
-                <Col className="ml-auto mr-auto" lg="6" sm="10">
-                  <div className="text-center">
-                    <h4 className="title">Subscribe to our Newsletter</h4>
-                  </div>
-                  <Card className="card-raised card-form-horizontal">
-                    <CardBody>
-                      <Form action="" method="">
-                        <Row>
-                          <Col sm="8">
-                            <InputGroup
-                              className={classnames({
-                                "input-group-focus": emailFocus2,
-                              })}
-                            >
-                              <InputGroupAddon addonType="prepend">
-                                <InputGroupText>
-                                  <i className="tim-icons icon-email-85" />
-                                </InputGroupText>
-                              </InputGroupAddon>
-                              <Input
-                                placeholder="Your Email..."
-                                type="email"
-                                onFocus={(e) => setEmailFocus2(true)}
-                                onBlur={(e) => setEmailFocus2(false)}
-                              />
-                            </InputGroup>
-                          </Col>
-                          <Col sm="4">
-                            <Button
-                              block
-                              className="btn-round"
-                              color="primary"
-                              type="button"
-                            >
-                              Sign up
-                            </Button>
-                          </Col>
-                        </Row>
-                      </Form>
-                    </CardBody>
-                  </Card>
-                </Col>
-              </Row>
-            </Container>
-          </div>
-          {/* ********* IMAGE SUBSCRIBE LINE ********* */}
         </div>
       </div>
     </>

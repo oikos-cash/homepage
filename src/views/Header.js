@@ -185,7 +185,7 @@ export default function Headers() {
                   <div className="iframe-container">
                     <img
                       alt="..."
-                      src="https://raw.githubusercontent.com/creativetimofficial/public-assets/main/black-dashboard/black-dashboard.gif"
+                      src={require("assets/img/minter-screenshot.png").default}
                     />
                   </div>
                 </Col>

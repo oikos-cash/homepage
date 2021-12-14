@@ -35,7 +35,7 @@ ReactDOM.render(
       <Route path="/index" render={(props) => <Index {...props} />} />
       <Route path="/404-error" render={(props) => <Error404 {...props} />} />
       <Route path="/500-error" render={(props) => <Error500 {...props} />} />
-      <Redirect from="/" to="/presentation" />
+      <Redirect from="/" to="/index" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
