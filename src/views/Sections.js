@@ -24,6 +24,8 @@ import React from "react";
 // core components
 import ScrollNavbar from "components/Navbars/ScrollNavbar.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
+import ColorNavbar from "components/Navbars/ColorNavbar.js";
+import PresentationHeader from "components/Headers/PresentationHeader.js";
 
 // Sections for this page
 // (we've divided this page into multiple react components to make it a bit more readable)
@@ -37,6 +39,9 @@ import Testimonials from "./SectionsSections/Testimonials.js";
 import ContactUs from "./SectionsSections/ContactUs.js";
 import Tables from "./SectionsSections/Tables.js";
 import Accordion from "./SectionsSections/Accordion.js";
+import NucleoIcons from "./IndexSections/NucleoIcons.js";
+import Content from "./PresentationSections/Content.js";
+import Notifications from "./IndexSections/Notifications.js";
 
 export default function Sections() {
   const wrapper = React.useRef(null);
@@ -60,24 +65,18 @@ export default function Sections() {
   }, []);
   return (
     <>
-      {/* Navbar START */}
-      <ScrollNavbar />
-      {/* Navbar END */}
+      <ColorNavbar />
       <div className="wrapper" ref={wrapper}>
         <div className="section-space" />
-        {/* Sections START */}
         <Headers />
+        <Notifications />
+        <Content />
         <Features />
-        <Blogs />
-        <Teams />
         <Projects />
-        <Pricing />
-        <Testimonials />
+        <NucleoIcons />
+        <Teams />
         <ContactUs />
-        <Tables />
         <Accordion />
-        {/* Sections END */}
-        {/* Footer */}
         <DemoFooter />
       </div>
     </>

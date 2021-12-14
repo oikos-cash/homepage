@@ -54,10 +54,10 @@ export default function ScrollNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand to="/index" tag={Link} id="tooltip1995010466">
-              <span>BLK•</span> Design System PRO React
+              OIKOS
             </NavbarBrand>
             <UncontrolledTooltip delay={0} target="tooltip1995010466">
-              Designed and Coded by Creative Tim
+              Decentralized Finance on BSC
             </UncontrolledTooltip>
             <button className="navbar-toggler" id="navigation">
               <span className="navbar-toggler-bar bar1" />

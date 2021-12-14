@@ -36,28 +36,18 @@ export default function DemoFooter() {
         <Container>
           <Row>
             <Col md="3">
-              <h1 className="title">BLK• React</h1>
+              <h1 className="title">OIKOS</h1>
             </Col>
             <Col md="3" xs="6">
               <Nav>
                 <NavItem>
-                  <NavLink to="/index" tag={Link}>
+                  <NavLink to="#" tag={Link}>
                     Home
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="/landing-page" tag={Link}>
-                    Landing
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink to="/register-page" tag={Link}>
-                    Register
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink to="/profile-page" tag={Link}>
-                    Profile
+                  <NavLink to="https://stats.oikos.cash/" tag={Link}>
+                    Stats
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -65,35 +55,13 @@ export default function DemoFooter() {
             <Col md="3" xs="6">
               <Nav>
                 <NavItem>
-                  <NavLink
-                    href="https://creative-tim.com/contact-us?ref=blkdspr-footer"
-                    target="_blank"
-                  >
-                    Contact Us
+                  <NavLink to="https://oikos.exchange/" tag={Link}>
+                    Exchange
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink
-                    href="https://creative-tim.com/about-us?ref=blkdspr-footer"
-                    target="_blank"
-                  >
-                    About Us
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink
-                    href="http://creative-tim.com/blog?ref=blkdspr-footer"
-                    target="_blank"
-                  >
-                    Blog
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink
-                    href="https://opensource.org/licenses/MIT?ref=blkdspr-footer"
-                    target="_blank"
-                  >
-                    License
+                  <NavLink to="https://dashboard.oikos.cash/" tag={Link}>
+                    Dashboard
                   </NavLink>
                 </NavItem>
               </Nav>

@@ -25,40 +25,10 @@ export default function Notifications() {
       <div className="section section-notifications" id="notifications">
         <Container>
           <div className="space" />
-          <h3>Notifications</h3>
-          <UncontrolledAlert className="alert-with-icon" color="primary">
-            <span data-notify="icon" className="tim-icons icon-coins" />
+          <UncontrolledAlert className="alert" color="alert">
             <span>
-              <b>Congrats! -</b>
-              This is a regular notification made with ".alert-primary"
-            </span>
-          </UncontrolledAlert>
-          <UncontrolledAlert className="alert-with-icon" color="info">
-            <span data-notify="icon" className="tim-icons icon-trophy" />
-            <span>
-              <b>Heads up! -</b>
-              This is a regular notification made with ".alert-info"
-            </span>
-          </UncontrolledAlert>
-          <UncontrolledAlert className="alert-with-icon" color="success">
-            <span data-notify="icon" className="tim-icons icon-bell-55" />
-            <span>
-              <b>Well done! -</b>
-              This is a regular notification made with ".alert-success"
-            </span>
-          </UncontrolledAlert>
-          <UncontrolledAlert className="alert-with-icon" color="warning">
-            <span data-notify="icon" className="tim-icons icon-bulb-63" />
-            <span>
-              <b>Warning! -</b>
-              This is a regular notification made with ".alert-warning"
-            </span>
-          </UncontrolledAlert>
-          <UncontrolledAlert className="alert-with-icon" color="danger">
-            <span data-notify="icon" className="tim-icons icon-support-17" />
-            <span>
-              <b>Oh snap! -</b>
-              This is a regular notification made with ".alert-danger"
+              <h1><b>Oikos is migrating to Binance Smart Chain.</b></h1>
+              <h2>Checkout the new statistics website at <a href="https://stats.oikos.cash/" target="_blank">stats.oikos.cash</a>.</h2>
             </span>
           </UncontrolledAlert>
         </Container>

@@ -31,13 +31,10 @@ export default function NucleoIcons() {
         <Container>
           <Row className="justify-content-center">
             <Col lg="8" md="12">
-              <h2 className="title">Nucleo Icons</h2>
+              <h2 className="title">Synthetic Assets</h2>
               <h4 className="description">
                 BLK• Design System PRO React comes with 100 custom icons made by
-                our friends from NucleoApp. The official package contains over
-                2.100 thin icons which are looking great in combination with
-                BLK• Design System PRO React Make sure you check all of them and
-                use those that you like the most.
+                our friends from NucleoApp.
               </h4>
               <div className="btn-wrapper">
                 <Button
@@ -60,7 +57,7 @@ export default function NucleoIcons() {
               </div>
             </Col>
           </Row>
-          <div className="blur-hover">
+          <div className="">
             <a href="https://demos.creative-tim.com/blk-design-system-pro-react/#/documentation/alert?ref=blkdspr-index">
               <div className="icons-container blur-item on-screen mt-5">
                 {/* Center */}
