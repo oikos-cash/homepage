@@ -162,15 +162,23 @@ export default function Headers() {
                   <br />
                   <div className="buttons">
                     <Button
-                      className="btn-round mr-3 pulse"
+                    className="btn-round"
+                    color="info"
+                    href="https://nucleoapp.com/?ref=1712"
+                    size="lg"
+                    target="_blank"
+                  >
+                    Buy OKS
+                  </Button>
+                    <Button
+                      className="btn-round mr-3"
                       color="secondary"
                       href="#"
                       onClick={(e) => e.preventDefault()}
                       size="lg"
                     >
-                      <i className="tim-icons icon-delivery-fast" />
+                      <p>Enter DaPP</p>
                     </Button>
-                    <p>Enter Exchange</p>
                   </div>
                 </Col>
                 <Col className="ml-auto mt-5" lg="7" md="12">

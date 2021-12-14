@@ -41,7 +41,6 @@ import {
   Container,
   Row,
   Col,
-  UncontrolledTooltip,
 } from "reactstrap";
 
 export default function Projects() {
@@ -55,13 +54,12 @@ export default function Projects() {
   return (
     <>
       <div className="cd-section" id="projects">
-        {/* ********* PROJECTS 4 ********* */}
         <div className="projects-4">
           <Container>
             <Row>
               <Col className="mr-auto ml-auto text-center" md="8">
-                <h6 className="category text-muted">Oikos Network</h6>
-                <h2 className="title mt-0">Tools</h2>
+                <h4 className="category text-muted">Oikos Network</h4>
+                <h1 className="title mt-0">Tools</h1>
               </Col>
             </Row>
             <div className="space-50" />
@@ -71,23 +69,22 @@ export default function Projects() {
                   className="card-background"
                   style={{
                     backgroundImage:
-                      "url(" + require("assets/img/bg8.jpg").default + ")",
+                      "linear-gradient(135deg, #3c3c3c, #1a1a1a)",
                   }}
                 >
                   <CardBody className="text-left">
                     <h6 className="card-category">
-                      <i className="tim-icons icon-atom" />
                     </h6>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <CardTitle tag="h1">Minter</CardTitle>
+                    <a href="https://minter.oikos.cash/" onClick={(e) => e.preventDefault()}>
+                      <CardTitle tag="h2">Minter</CardTitle>
                     </a>
-                    <h6 className="desc">Java App</h6>
+                    <h6 className="desc">dApp</h6>
                     <Button
                       color="info"
-                      href="#pablo"
+                      href="https://minter.oikos.cash/"
                       onClick={(e) => e.preventDefault()}
                     >
-                      Watch Later
+                      Visit
                     </Button>
                   </CardBody>
                 </Card>
@@ -97,23 +94,22 @@ export default function Projects() {
                   className="card-background"
                   style={{
                     backgroundImage:
-                      "url(" + require("assets/img/bg7.jpg").default + ")",
+                      "linear-gradient(135deg, #3c3c3c, #1a1a1a)",
                   }}
                 >
                   <CardBody className="text-left">
                     <h6 className="card-category">
-                      <i className="tim-icons icon-camera-18" />
                     </h6>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <CardTitle tag="h1">Exchange</CardTitle>
+                    <a href="https://oikos.exchange" onClick={(e) => e.preventDefault()}>
+                      <CardTitle tag="h2">Exchange</CardTitle>
                     </a>
-                    <h6 className="desc">College project</h6>
+                    <h6 className="desc">Dapp</h6>
                     <Button
-                      color="success"
-                      href="#pablo"
+                      color="info"
+                      href="https://oikos.exchange/"
                       onClick={(e) => e.preventDefault()}
                     >
-                      Watch Later
+                      Visit
                     </Button>
                   </CardBody>
                 </Card>
@@ -123,23 +119,22 @@ export default function Projects() {
                   className="card-background"
                   style={{
                     backgroundImage:
-                      "url(" + require("assets/img/bg4.jpg").default + ")",
+                      "linear-gradient(135deg, #3c3c3c, #1a1a1a)",
                   }}
                 >
                   <CardBody className="text-left">
                     <h6 className="card-category">
-                      <i className="tim-icons icon-html5" />
                     </h6>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <CardTitle tag="h1">Stats</CardTitle>
+                      <CardTitle tag="h2">Stats</CardTitle>
                     </a>
-                    <h6 className="desc">HTML code</h6>
+                    <h6 className="desc">Analytics</h6>
                     <Button
-                      color="warning"
-                      href="#pablo"
+                      color="info"
+                      href="https://stats.oikos.cash/"
                       onClick={(e) => e.preventDefault()}
                     >
-                      Watch Later
+                      Visit
                     </Button>
                   </CardBody>
                 </Card>
@@ -149,23 +144,22 @@ export default function Projects() {
                   className="card-background"
                   style={{
                     backgroundImage:
-                      "url(" + require("assets/img/bg8.jpg").default + ")",
+                      "linear-gradient(135deg, #3c3c3c, #1a1a1a)",
                   }}
                 >
                   <CardBody className="text-left">
                     <h6 className="card-category">
-                      <i className="tim-icons icon-html5" />
                     </h6>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <CardTitle tag="h1">xyz</CardTitle>
+                      <CardTitle tag="h2">Dashboard</CardTitle>
                     </a>
-                    <h6 className="desc">HTML code</h6>
+                    <h6 className="desc">Distribution</h6>
                     <Button
-                      color="warning"
-                      href="#pablo"
+                      color="info"
+                      href="https://distribution.oikos.cash/"
                       onClick={(e) => e.preventDefault()}
                     >
-                      Watch Later
+                      Visit
                     </Button>
                   </CardBody>
                 </Card>
@@ -173,7 +167,6 @@ export default function Projects() {
             </Row>
           </Container>
         </div>
-        {/* ********* END PROJECTS 4 ********* */}
       </div>{" "}
     </>
   );

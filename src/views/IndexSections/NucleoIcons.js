@@ -23,11 +23,6 @@ export default function NucleoIcons() {
   return (
     <>
       <div className="section section-nucleo-icons">
-        <img
-          alt="..."
-          className="path"
-          src={require("assets/img/path3.png").default}
-        />
         <Container>
           <Row className="justify-content-center">
             <Col lg="8" md="12">
@@ -43,7 +38,7 @@ export default function NucleoIcons() {
                   href="https://demos.creative-tim.com/blk-design-system-pro-react/#/documentation/icons?ref=blkdspr-index"
                   target="_blank"
                 >
-                  View Demo Icons
+                  Buy OKS
                 </Button>
                 <Button
                   className="btn-simple btn-round"
@@ -79,9 +74,6 @@ export default function NucleoIcons() {
                 <i className="icon tim-icons icon-tap-02" />
                 <i className="icon tim-icons icon-wallet-43" />
               </div>
-              <span className="blur-hidden h5 text-primary">
-                Explore all the 21.000+ Nucleo Icons
-              </span>
             </a>
           </div>
         </Container>

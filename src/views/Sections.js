@@ -26,6 +26,7 @@ import ScrollNavbar from "components/Navbars/ScrollNavbar.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 import ColorNavbar from "components/Navbars/ColorNavbar.js";
 import PresentationHeader from "components/Headers/PresentationHeader.js";
+import PreFooter from "./IndexSections/PreFooter.js";
 
 // Sections for this page
 // (we've divided this page into multiple react components to make it a bit more readable)
@@ -75,8 +76,8 @@ export default function Sections() {
         <Projects />
         <NucleoIcons />
         <Teams />
-        <ContactUs />
         <Accordion />
+        <PreFooter />
         <DemoFooter />
       </div>
     </>

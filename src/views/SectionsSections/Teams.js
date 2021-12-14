@@ -275,69 +275,26 @@ export default function Teams() {
                   <CardHeader
                     style={{
                       backgroundImage:
-                        "url(" +
-                        require("assets/img/ben-konfrst.jpg").default +
-                        ")",
+                      "linear-gradient(135deg, #3c3c3c, #1a1a1a",
                     }}
                   >
                     <div className="card-avatar">
                       <a href="#pablo" onClick={(e) => e.preventDefault()}>
                         <img
                           alt="..."
-                          className="img img-raised"
-                          src={require("assets/img/ryan.jpg").default}
+                          className="img-raised"
+                          src={require("assets/img/manuel_corona.jpg").default}
                         />
                       </a>
                     </div>
                   </CardHeader>
                   <CardBody>
                     <CardTitle tag="h3">Manuel Corona</CardTitle>
-                    <h6 className="category text-primary">Co-Founder & Marketing Expert</h6>
+                    <h6 className="category text-info">Co-Founder & Marketing Expert</h6>
                     <p className="card-description">
-                      Multi-Cloud Object Storage and Data Mobility: A GigaOm
-                      Market Landscape Report has been announced...
+                      Manuel had an early fascination with technology that led him to work with many talented people and co-found several technology projects. He is a skilled marketer, IT expert and his interests span from programming to distributed system design and of course, cryptocurrencies. His early vision for Oikos was determinant and he led the project from the idea phase to deployment.
                     </p>
                   </CardBody>
-                  <CardFooter>
-                    <div className="follow float-left">
-                      <Button
-                        className="btn-simple"
-                        color="primary"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                        size="sm"
-                      >
-                        <i className="tim-icons icon-check-2 mr-1" />
-                        Following
-                      </Button>
-                    </div>
-                    <div className="d-inline float-right d-md-block">
-                      <Button
-                        className="btn-icon btn-round mr-1"
-                        color="dribbble"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <i className="fab fa-dribbble" />
-                      </Button>
-                      <Button
-                        className="btn-icon btn-round mr-1"
-                        color="linkedin"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <i className="fab fa-linkedin" />
-                      </Button>
-                      <Button
-                        className="btn-icon btn-round"
-                        color="behance"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <i className="fab fa-behance" />
-                      </Button>
-                    </div>
-                  </CardFooter>
                 </Card>
               </Col>
               <Col md="4">
@@ -345,67 +302,26 @@ export default function Teams() {
                   <CardHeader
                     style={{
                       backgroundImage:
-                        "url(" +
-                        require("assets/img/ruvim-noga.jpg").default +
-                        ")",
+                      "linear-gradient(135deg, #3c3c3c, #1a1a1a",
                     }}
                   >
                     <div className="card-avatar">
                       <a href="#pablo" onClick={(e) => e.preventDefault()}>
                         <img
                           alt="..."
-                          className="img img-raised"
-                          src={require("assets/img/lora.jpg").default}
+                          className="img-raised"
+                          src={require("assets/img/albert_rodriguez.jpg").default}
                         />
                       </a>
                     </div>
                   </CardHeader>
                   <CardBody>
                     <CardTitle tag="h3">Albert Rodriguez</CardTitle>
-                    <h6 className="category text-primary">Co-Founder & Mad Scientist</h6>
+                    <h6 className="category text-info">Co-Founder & Mad Scientist</h6>
                     <p className="card-description">
-                      Over the years, advancement in CRM technology has reshaped
-                      the way SMBs and SMEs manage their workflows...
+                      Albert is an early Bitcoin, Ethereum and Binance Smart Chain adopter. His fascination for DeFi lead him to come up with the idea for Oikos and everything started from there. He is also a very talented developer with experience in several programming languages. His daily routine consists in drinking a lot of coffee, writing code and thinking of new possible directions for Oikos.
                     </p>
                   </CardBody>
-                  <CardFooter>
-                    <div className="follow float-left">
-                      <Button
-                        color="primary"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                        size="sm"
-                      >
-                        Follow
-                      </Button>
-                    </div>
-                    <div className="d-inline float-right d-md-block">
-                      <Button
-                        className="btn-icon btn-round mr-1"
-                        color="dribbble"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <i className="fab fa-dribbble" />
-                      </Button>
-                      <Button
-                        className="btn-icon btn-round mr-1"
-                        color="linkedin"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <i className="fab fa-linkedin" />
-                      </Button>
-                      <Button
-                        className="btn-icon btn-round"
-                        color="behance"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <i className="fab fa-behance" />
-                      </Button>
-                    </div>
-                  </CardFooter>
                 </Card>
               </Col>
               <Col md="4">
@@ -413,69 +329,26 @@ export default function Teams() {
                   <CardHeader
                     style={{
                       backgroundImage:
-                        "url(" +
-                        require("assets/img/sendra-martorell.jpg").default +
-                        ")",
+                        "linear-gradient(135deg, #3c3c3c, #1a1a1a",
                     }}
                   >
                     <div className="card-avatar">
                       <a href="#pablo" onClick={(e) => e.preventDefault()}>
                         <img
                           alt="..."
-                          className="img img-raised"
-                          src={require("assets/img/ryan.png").default}
+                          className="img-raised"
+                          src={require("assets/img/kevin_holder.jpg").default}
                         />
                       </a>
                     </div>
                   </CardHeader>
                   <CardBody>
                     <CardTitle tag="h3">Kevin Holder</CardTitle>
-                    <h6 className="category text-primary">Software Engineer</h6>
+                    <h6 className="category text-info">Software Engineer</h6>
                     <p className="card-description">
-                      Scaling DevOps: Strategy &amp; Technical Considerations
-                      for Successful Enterprise DevOps
+                    Kevin is a talented software engineer that has been through the whole technology stack during the course of his career, from cryptography to front end web development. Before Oikos, he spent his time developing smart contracts, studying decentralized applications and contributing to open source. His programming languages of choice are, in no particular order, Solidity, JavaScript and Rust.
                     </p>
                   </CardBody>
-                  <CardFooter>
-                    <div className="follow float-left">
-                      <Button
-                        className="btn-simple"
-                        color="primary"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                        size="sm"
-                      >
-                        <i className="tim-icons icon-check-2 mr-1" />
-                        Following
-                      </Button>
-                    </div>
-                    <div className="d-inline float-right d-md-block">
-                      <Button
-                        className="btn-icon btn-round mr-1"
-                        color="dribbble"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <i className="fab fa-dribbble" />
-                      </Button>
-                      <Button
-                        className="btn-icon btn-round mr-1"
-                        color="linkedin"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <i className="fab fa-linkedin" />
-                      </Button>
-                      <Button
-                        className="btn-icon btn-round"
-                        color="behance"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <i className="fab fa-behance" />
-                      </Button>
-                    </div>
-                  </CardFooter>
                 </Card>
               </Col>
             </Row>

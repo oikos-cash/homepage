@@ -29,10 +29,6 @@ export default function Features() {
             <Row>
               <Col className="mr-auto ml-auto" md="6">
                 <h1 className="title">Highlights</h1>
-                <h4 className="description">
-                  Trello’s boards, lists, and cards enable you to organize and
-                  prioritize your projects in a fun, flexible and rewarding way.
-                </h4>
               </Col>
             </Row>
             <Row>
