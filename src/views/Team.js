@@ -22,6 +22,7 @@ import {
   Card,
   CardHeader,
   CardBody,
+  CardFooter,
   CardTitle,
   Container,
   Row,
@@ -94,6 +95,34 @@ export default function Team() {
                       Manuel had an early fascination with technology that led him to work with many talented people and co-found several technology projects. He is a skilled marketer, IT expert and his interests span from programming to distributed system design and of course, cryptocurrencies. His early vision for Oikos was determinant and he led the project from the idea phase to deployment.
                     </p>
                   </CardBody>
+                  <CardFooter>
+                    <div className="d-inline float-center d-md-block">
+                      <Button
+                        className="btn-icon btn-round"
+                        color="telegram"
+                        href="https://t.me/triloger"
+                        target="_blank"
+                      >
+                        <i className="fab fa-telegram" />
+                      </Button>
+                      {/* <Button
+                        className="btn-icon btn-round mr-1"
+                        color="github"
+                        href="#"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <i className="fab fa-github" />
+                      </Button> */}
+                      <Button
+                        className="btn-icon btn-round mr-1"
+                        color="twitter"
+                        href="https://twitter.com/oikosman1"
+                        target="_blank"
+                      >
+                        <i className="fab fa-twitter" />
+                      </Button>
+                    </div>
+                  </CardFooter>
                 </Card>
               </Col>
               <Col md="4">
@@ -121,6 +150,34 @@ export default function Team() {
                       Albert is an early Bitcoin, Ethereum and Binance Smart Chain adopter. His fascination for DeFi lead him to come up with the idea for Oikos and everything started from there. He is also a very talented developer with experience in several programming languages. His daily routine consists in drinking a lot of coffee, writing code and thinking of new possible directions for Oikos.
                     </p>
                   </CardBody>
+                  <CardFooter>
+                    <div className="d-inline float-center d-md-block">
+                    <Button
+                        className="btn-icon btn-round"
+                        color="telegram"
+                        href="https://t.me/oikos1"
+                        target="_blank"
+                      >
+                        <i className="fab fa-telegram" />
+                      </Button>
+                      <Button
+                        className="btn-icon btn-round mr-1"
+                        color="github"
+                        href="https://github.com/oikos1"
+                        target="_blank"
+                      >
+                        <i className="fab fa-github" />
+                      </Button>
+                      {/* <Button
+                        className="btn-icon btn-round mr-1"
+                        color="twitter"
+                        href="https://twitter.com/oikosman1"
+                        target="_blank"
+                      >
+                        <i className="fab fa-twitter" />
+                      </Button> */}
+                    </div>
+                  </CardFooter>
                 </Card>
               </Col>
               <Col md="4">
@@ -148,6 +205,34 @@ export default function Team() {
                     Kevin is a talented software engineer that has been through the whole technology stack during the course of his career, from cryptography to front end web development. Before Oikos, he spent his time developing smart contracts, studying decentralized applications and contributing to open source. His programming languages of choice are, in no particular order, Solidity, JavaScript and Rust.
                     </p>
                   </CardBody>
+                  <CardFooter>
+                    <div className="d-inline float-center d-md-block">
+                    <Button
+                        className="btn-icon btn-round"
+                        color="telegram"
+                        href="https://t.me/kevholder"
+                        target="_blank"
+                      >
+                        <i className="fab fa-telegram" />
+                      </Button>
+                      <Button
+                        className="btn-icon btn-round mr-1"
+                        color="github"
+                        href="https://github.com/kevholder"
+                        target="_blank"
+                      >
+                        <i className="fab fa-github" />
+                      </Button>
+                      {/* <Button
+                        className="btn-icon btn-round mr-1"
+                        color="twitter"
+                        href="https://twitter.com/oikosman1"
+                        target="_blank"
+                      >
+                        <i className="fab fa-twitter" />
+                      </Button> */}
+                    </div>
+                  </CardFooter>
                 </Card>
               </Col>
             </Row>

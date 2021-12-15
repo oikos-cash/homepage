@@ -32,7 +32,7 @@ export default function Content() {
                   className="img rounded img-comments rellax"
                   data-rellax-speed="1"
                   src={
-                    require("assets/img/web-icons.png").default
+                    require("assets/img/features_3.svg").default
                   }
                   style={{
                     maxWidth:"100%",

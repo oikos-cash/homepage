@@ -106,6 +106,7 @@ export default function Prefooter() {
                       style={{
                         maxWidth:"100%"
                       }} 
+                      alt="Chainlink"
                     />
                   </Button>
                 </Col>
@@ -113,13 +114,13 @@ export default function Prefooter() {
                   <Button
                     className="btn-simple btn-icon btn-footer"
                     color="default"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
+                    href="https://coingecko.com/"
+                    target="_blank"
                   >
                     <img
-                      src={require("assets/img/oikos-type.svg").default}
+                      src={require("assets/img/coingecko-logo.png").default}
                       style={{
-                        maxWidth:"15vh"
+                        maxWidth:"100%"
                       }} 
                     />
                   </Button>
@@ -127,14 +128,13 @@ export default function Prefooter() {
                 <Col md="2">
                   <Button
                     className="btn-simple btn-icon btn-footer"
-                    color="default"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
+                    href="https://coinmarketcap.com/"
+                    target="_blank"
                   >
                     <img
-                      src={require("assets/img/oikos-type.svg").default}
+                      src={require("assets/img/coinmarketcap-logo.png").default}
                       style={{
-                        maxWidth:"15vh"
+                        maxWidth:"100%"
                       }} 
                     />
                   </Button>

@@ -10845,8 +10845,6 @@ img {
     color: #ffffff; }
   .navbar .btn {
     margin: 0 5px 0 10px; }
-  .navbar p {
-    margin: 0; }
   .navbar.navbar-absolute {
     position: absolute;
     z-index: 1050; }
@@ -15381,7 +15379,9 @@ html {
 .navbar p {
   line-height: 1.8em;
   font-size: 1em;
-  font-weight: 400; }
+  font-weight: 400; 
+  /* margin: 0 5px !important; */
+}
 
 .navbar.navbar-absolute {
   position: absolute;

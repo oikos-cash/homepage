@@ -39,35 +39,36 @@ export default function Footer() {
               <img
                 src={require("assets/img/oikos-type.svg").default}
                 style={{
-                  maxWidth:"20vh",
+                  maxWidth:"10vh",
+                  margin:"5vh",
                 }} 
               />
             </Col>
             <Col md="3" xs="6">
               <Nav>
                 <NavItem>
-                  <NavLink to="#" tag={Link}>
+                  <a href="#">
                     Home
-                  </NavLink>
+                  </a>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="https://stats.oikos.cash/" tag={Link}>
+                  <a href="https://stats.oikos.cash/" target="_blank">
                     Stats
-                  </NavLink>
+                  </a>
                 </NavItem>
               </Nav>
             </Col>
             <Col md="3" xs="6">
               <Nav>
                 <NavItem>
-                  <NavLink to="https://oikos.exchange/" tag={Link}>
+                  <a href="https://oikos.exchange/" target="_blank">
                     Exchange
-                  </NavLink>
+                  </a>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="https://dashboard.oikos.cash/" tag={Link}>
+                  <a href="https://dashboard.oikos.cash/" target="_blank">
                     Dashboard
-                  </NavLink>
+                  </a>
                 </NavItem>
               </Nav>
             </Col>

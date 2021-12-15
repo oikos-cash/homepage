@@ -75,14 +75,14 @@ export default function Tools() {
                   <CardBody className="text-left">
                     <h6 className="card-category">
                     </h6>
-                    <a href="https://minter.oikos.cash/" onClick={(e) => e.preventDefault()}>
+                    <a href="https://minter.oikos.cash/" target="_blank">
                       <CardTitle tag="h2">Minter</CardTitle>
                     </a>
                     <h6 className="desc">dApp</h6>
                     <Button
                       color="info"
                       href="https://minter.oikos.cash/"
-                      // target="_blank"
+                      target="_blank"
                     >
                       Visit
                     </Button>
@@ -100,14 +100,14 @@ export default function Tools() {
                   <CardBody className="text-left">
                     <h6 className="card-category">
                     </h6>
-                    <a href="https://oikos.exchange" onClick={(e) => e.preventDefault()}>
+                    <a href="https://oikos.exchange" target="_blank">
                       <CardTitle tag="h2">Exchange</CardTitle>
                     </a>
                     <h6 className="desc">Dapp</h6>
                     <Button
                       color="info"
                       href="https://oikos.exchange/"
-                      onClick={(e) => e.preventDefault()}
+                      target="_blank"
                     >
                       Visit
                     </Button>
@@ -125,14 +125,14 @@ export default function Tools() {
                   <CardBody className="text-left">
                     <h6 className="card-category">
                     </h6>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="https://stats.oikos.cash/" target="_blank">
                       <CardTitle tag="h2">Stats</CardTitle>
                     </a>
                     <h6 className="desc">Analytics</h6>
                     <Button
                       color="info"
                       href="https://stats.oikos.cash/"
-                      onClick={(e) => e.preventDefault()}
+                      target="_blank"
                     >
                       Visit
                     </Button>
@@ -150,14 +150,14 @@ export default function Tools() {
                   <CardBody className="text-left">
                     <h6 className="card-category">
                     </h6>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a href="https://dashboard.oikos.cash/" target="_blank">
                       <CardTitle tag="h2">Dashboard</CardTitle>
                     </a>
                     <h6 className="desc">Distribution</h6>
                     <Button
                       color="info"
-                      href="https://distribution.oikos.cash/"
-                      onClick={(e) => e.preventDefault()}
+                      href="https://dashboard.oikos.cash/"
+                      target="_blank"
                     >
                       Visit
                     </Button>
