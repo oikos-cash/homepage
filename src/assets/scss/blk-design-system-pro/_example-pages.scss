@@ -273,7 +273,7 @@
   .page-header {
 
     &::after {
-      background: radial-gradient(ellipse at top right, #292D61 23%, #171941 65%);
+      background: radial-gradient(ellipse at top right, #292D61 23%, #1b1b1b 65%);
       position: absolute;
       height: 100vh;
       width: 100%;
@@ -627,7 +627,7 @@
     }
 
     &::after {
-      background: radial-gradient(ellipse at top right, #292D61 23%, #171941 65%);
+      background: radial-gradient(ellipse at top right, #292D61 23%, #1b1b1b 65%);
       // content: "";
       position: absolute;
       height: 100vh;

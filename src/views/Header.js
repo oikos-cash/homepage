@@ -147,10 +147,10 @@ export default function Headers() {
           <div className="page-header header-filter">
             <div
               className="page-header-image"
-              style={{
-                backgroundImage:
-                  "linear-gradient(-60deg, #1a3c43, #2c0a2c",
-              }}
+              // style={{
+              //   backgroundImage:
+              //     "linear-gradient(-60deg, #1a3c43, #2c0a2c",
+              // }}
             />
             <Container>
               <Row>

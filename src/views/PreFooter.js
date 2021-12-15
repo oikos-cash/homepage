@@ -53,15 +53,15 @@ export default function Prefooter() {
                   <Button
                     className="btn-simple btn-icon btn-footer"
                     color="default"
-                    href="https://derive.fi/"
+                    href="https://chain.link/"
                     target="_blank"
                   >
                     <img
-                      src={require("assets/img/derive-type.svg").default}
+                      src={require("assets/img/chainlink-logo.png").default}
                       style={{
-                        maxWidth:"8vh"
+                        maxWidth:"100%"
                       }} 
-                      alt="Derive Finance"
+                      alt="Chainlink"
                     />
                   </Button>
                 </Col>
@@ -69,13 +69,13 @@ export default function Prefooter() {
                   <Button
                     className="btn-simple btn-icon btn-footer"
                     color="default"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
+                    href="https://coingecko.com/"
+                    target="_blank"
                   >
                     <img
-                      src={require("assets/img/oikos-type.svg").default}
+                      src={require("assets/img/coingecko-logo.png").default}
                       style={{
-                        maxWidth:"8vh"
+                        maxWidth:"100%"
                       }} 
                     />
                   </Button>
@@ -83,28 +83,13 @@ export default function Prefooter() {
                 <Col md="2">
                   <Button
                     className="btn-simple btn-icon btn-footer"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
+                    href="https://coinmarketcap.com/"
+                    target="_blank"
                   >
                     <img
-                      src={require("assets/img/oikos-type.svg").default}
+                      src={require("assets/img/coinmarketcap-logo.png").default}
                       style={{
-                        maxWidth:"8vh"
-                      }} 
-                    />
-                  </Button>
-                </Col>
-                <Col md="2">
-                  <Button
-                    className="btn-simple btn-icon btn-footer"
-                    color="default"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <img
-                      src={require("assets/img/oikos-type.svg").default}
-                      style={{
-                        maxWidth:"8vh"
+                        maxWidth:"100%"
                       }} 
                     />
                   </Button>
@@ -119,7 +104,7 @@ export default function Prefooter() {
                     <img
                       src={require("assets/img/oikos-type.svg").default}
                       style={{
-                        maxWidth:"8vh"
+                        maxWidth:"100%"
                       }} 
                     />
                   </Button>
@@ -134,7 +119,22 @@ export default function Prefooter() {
                     <img
                       src={require("assets/img/oikos-type.svg").default}
                       style={{
-                        maxWidth:"8vh"
+                        maxWidth:"15vh"
+                      }} 
+                    />
+                  </Button>
+                </Col>
+                <Col md="2">
+                  <Button
+                    className="btn-simple btn-icon btn-footer"
+                    color="default"
+                    href="#pablo"
+                    onClick={(e) => e.preventDefault()}
+                  >
+                    <img
+                      src={require("assets/img/oikos-type.svg").default}
+                      style={{
+                        maxWidth:"15vh"
                       }} 
                     />
                   </Button>
