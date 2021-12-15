@@ -25,10 +25,10 @@ export default function Notifications() {
       <div className="section section-notifications" id="notifications">
         <Container>
           <div className="space" />
-          <UncontrolledAlert className="alert" color="alert">
+          <UncontrolledAlert className="alert btn-info" color="info">
             <span>
-              <h1><b>Oikos has migrated to Binance Smart Chain on 02/02/21.</b></h1>
-              <h2>Checkout the new statistics website at <a href="https://stats.oikos.cash/" target="_blank" style={{color:"lightgreen",}}>stats.oikos.cash</a>.</h2>
+              <h2 className="mt-3"><b>Oikos has migrated to Binance Smart Chain on 02/02/21.</b></h2>
+              <h3>Checkout the new statistics website at <a href="https://stats.oikos.cash/" target="_blank" style={{color:"lightgreen",}}>stats.oikos.cash</a>.</h3>
             </span>
           </UncontrolledAlert>
         </Container>

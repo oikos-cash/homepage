@@ -98,11 +98,11 @@ export default function Prefooter() {
                   <Button
                     className="btn-simple btn-icon btn-footer"
                     color="default"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
+                    href="https://derive.fi/"
+                    target="_blank"
                   >
                     <img
-                      src={require("assets/img/oikos-type.svg").default}
+                      src={require("assets/img/derive-type.svg").default}
                       style={{
                         maxWidth:"100%"
                       }} 

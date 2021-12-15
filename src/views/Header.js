@@ -186,6 +186,9 @@ export default function Headers() {
                     <img
                       alt="..."
                       src={require("assets/img/minter-screenshot.png").default}
+                      style={{
+                        marginTop:"-2.5vh",
+                      }}
                     />
                   </div>
                 </Col>
