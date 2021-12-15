@@ -64,7 +64,7 @@ export default function Team() {
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h1 className="title">Team</h1>
                 <h4 className="description">
-                Blockchain engineers, mad scientists and marketing ninjas. <a href="#">We're hiring!</a>
+                Blockchain engineers, mad scientists and marketing ninjas. <a href="#" style={{color:"lightgreen",}}>We're hiring!</a>
                 </h4>
               </Col>
             </Row>

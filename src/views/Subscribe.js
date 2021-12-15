@@ -74,7 +74,7 @@ export default function Prefooter() {
                             <Button
                               block
                               className="btn-round"
-                              color="primary"
+                              color="info"
                               type="button"
                             >
                               Sign up

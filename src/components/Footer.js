@@ -36,7 +36,12 @@ export default function Footer() {
         <Container>
           <Row>
             <Col md="3">
-              <h1 className="title">OIKOS</h1>
+              <img
+                src={require("assets/img/oikos-type.svg").default}
+                style={{
+                  maxWidth:"20vh",
+                }} 
+              />
             </Col>
             <Col md="3" xs="6">
               <Nav>

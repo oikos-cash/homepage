@@ -1,5 +1,5 @@
 .card {
-    background: $card-black-background;
+    background: #151515;
     border: 0;
     position: relative;
     width: 100%;
@@ -47,7 +47,7 @@
 
     .card-header {
       &:not([data-background-color]) {
-        background-color: transparent;
+        background-color: #151515;
       }
       padding: 15px 15px 0;
       border: 0;
@@ -99,7 +99,7 @@
     }
 
     .card-footer{
-        background-color: transparent;
+        background-color: #151515;
         border: 0;
         padding: 0px;
         margin-top: 15px;
@@ -147,7 +147,7 @@
       text-align: center;
 
       .list-group-item {
-        background-color: transparent;
+        background-color: #151515;
         border: none;
         padding: .4rem 1rem;
       }
