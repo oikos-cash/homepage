@@ -72,10 +72,10 @@ export default function Team() {
               <Col md="4">
                 <Card className="card-profile profile-bg">
                   <CardHeader
-                    style={{
-                      backgroundImage:
-                      "linear-gradient(135deg, #3c3c3c, #1a1a1a",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //   "linear-gradient(135deg, #3c3c3c, #1a1a1a",
+                    // }}
                   >
                     <div className="card-avatar">
                       <a href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -89,7 +89,7 @@ export default function Team() {
                   </CardHeader>
                   <CardBody>
                     <CardTitle tag="h3">Manuel Corona</CardTitle>
-                    <h6 className="category text-info">Co-Founder & Marketing Expert</h6>
+                    <h4 className="text-info">Co-Founder & Marketing Expert</h4>
                     <p className="card-description">
                       Manuel had an early fascination with technology that led him to work with many talented people and co-found several technology projects. He is a skilled marketer, IT expert and his interests span from programming to distributed system design and of course, cryptocurrencies. His early vision for Oikos was determinant and he led the project from the idea phase to deployment.
                     </p>
@@ -99,10 +99,10 @@ export default function Team() {
               <Col md="4">
                 <Card className="card-profile profile-bg">
                   <CardHeader
-                    style={{
-                      backgroundImage:
-                      "linear-gradient(135deg, #3c3c3c, #1a1a1a",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //   "linear-gradient(135deg, #3c3c3c, #1a1a1a",
+                    // }}
                   >
                     <div className="card-avatar">
                       <a href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -116,7 +116,7 @@ export default function Team() {
                   </CardHeader>
                   <CardBody>
                     <CardTitle tag="h3">Albert Rodriguez</CardTitle>
-                    <h6 className="category text-info">Co-Founder & Mad Scientist</h6>
+                    <h4 className="text-info">Co-Founder & Mad Scientist</h4>
                     <p className="card-description">
                       Albert is an early Bitcoin, Ethereum and Binance Smart Chain adopter. His fascination for DeFi lead him to come up with the idea for Oikos and everything started from there. He is also a very talented developer with experience in several programming languages. His daily routine consists in drinking a lot of coffee, writing code and thinking of new possible directions for Oikos.
                     </p>
@@ -126,10 +126,10 @@ export default function Team() {
               <Col md="4">
                 <Card className="card-profile profile-bg">
                   <CardHeader
-                    style={{
-                      backgroundImage:
-                        "linear-gradient(135deg, #3c3c3c, #1a1a1a",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //     "linear-gradient(135deg, #3c3c3c, #1a1a1a",
+                    // }}
                   >
                     <div className="card-avatar">
                       <a href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -143,7 +143,7 @@ export default function Team() {
                   </CardHeader>
                   <CardBody>
                     <CardTitle tag="h3">Kevin Holder</CardTitle>
-                    <h6 className="category text-info">Software Engineer</h6>
+                    <h4 className="text-info">Software Engineer</h4>
                     <p className="card-description">
                     Kevin is a talented software engineer that has been through the whole technology stack during the course of his career, from cryptography to front end web development. Before Oikos, he spent his time developing smart contracts, studying decentralized applications and contributing to open source. His programming languages of choice are, in no particular order, Solidity, JavaScript and Rust.
                     </p>

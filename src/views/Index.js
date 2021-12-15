@@ -72,7 +72,7 @@ export default function Sections() {
         <Team />
         <PreFooter />
         <FAQ />
-        <Subscribe />
+        {/* <Subscribe /> */}
         <Footer />
       </div>
     </>

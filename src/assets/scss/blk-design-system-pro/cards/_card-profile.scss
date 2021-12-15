@@ -19,8 +19,8 @@
      }
 
     .card-avatar{
-        max-width: 130px;
-        max-height: 130px;
+        max-width: 150px;
+        max-height: 150px;
         margin: -60px auto 0;
 
         img{
@@ -179,7 +179,7 @@
       height: 150px;
 
       .card-avatar {
-        margin: 70px auto 0;
+        margin: 50px auto 0;
 
         .img {
           border: 2px solid $white;
@@ -188,7 +188,7 @@
     }
 
     .card-body {
-      margin-top: 25px;
+      margin: 25px;
     }
   }
 }

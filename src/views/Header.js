@@ -172,7 +172,6 @@ export default function Headers() {
                     </Button>
                     <Button
                       className="btn-round mr-3"
-                      color="secondary"
                       href="https://minter.oikos.cash/"
                       size="lg"
                       target="_blank"
