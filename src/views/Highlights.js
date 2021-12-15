@@ -57,7 +57,7 @@ export default function Highlights() {
                       alt="..."
                       className="bg-blob"
                       src={
-                        require("assets/img/features_2.svg").default
+                        require("assets/img/features_4.svg").default
                       }
                     />
                   </div>
@@ -78,7 +78,7 @@ export default function Highlights() {
                       alt="..."
                       className="bg-blob"
                       src={
-                        require("assets/img/features_3.svg").default
+                        require("assets/img/features_2.svg").default
                       }
                     />
                   </div>
@@ -96,7 +96,7 @@ export default function Highlights() {
                     <img
                       alt="..."
                       className="bg-blob"
-                      src={require("assets/img/features_4.svg").default}
+                      src={require("assets/img/features_5.svg").default}
                     />
                   </div>
                   <div className="description">
