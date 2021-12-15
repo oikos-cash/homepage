@@ -37,7 +37,6 @@ export default function FAQ() {
   return (
     <>
       <div className="cd-section" id="accordion">
-        {/* ********* Accordion 1 ********* */}
         <div className="accordion-1">
           <Container>
             <Row>

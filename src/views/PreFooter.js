@@ -41,7 +41,7 @@ export default function Prefooter() {
         <div id="pre-footer-areas">
           <Container>
             <div className="title">
-              <h3>Partners & Sponsors</h3>
+              <h1>Partners & Sponsors</h1>
             </div>
           </Container>
           <br />
@@ -53,10 +53,16 @@ export default function Prefooter() {
                   <Button
                     className="btn-simple btn-icon btn-footer"
                     color="default"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
+                    href="https://derive.fi/"
+                    target="_blank"
                   >
-                    <i className="fab fa-twitter" />
+                    <img
+                      src={require("assets/img/derive-type.svg").default}
+                      style={{
+                        maxWidth:"8vh"
+                      }} 
+                      alt="Derive Finance"
+                    />
                   </Button>
                 </Col>
                 <Col md="2">
@@ -66,7 +72,26 @@ export default function Prefooter() {
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
                   >
-                    <i className="fab fa-facebook-square" />
+                    <img
+                      src={require("assets/img/oikos-type.svg").default}
+                      style={{
+                        maxWidth:"8vh"
+                      }} 
+                    />
+                  </Button>
+                </Col>
+                <Col md="2">
+                  <Button
+                    className="btn-simple btn-icon btn-footer"
+                    href="#pablo"
+                    onClick={(e) => e.preventDefault()}
+                  >
+                    <img
+                      src={require("assets/img/oikos-type.svg").default}
+                      style={{
+                        maxWidth:"8vh"
+                      }} 
+                    />
                   </Button>
                 </Col>
                 <Col md="2">
@@ -76,7 +101,12 @@ export default function Prefooter() {
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
                   >
-                    <i className="fab fa-google-plus" />
+                    <img
+                      src={require("assets/img/oikos-type.svg").default}
+                      style={{
+                        maxWidth:"8vh"
+                      }} 
+                    />
                   </Button>
                 </Col>
                 <Col md="2">
@@ -86,7 +116,12 @@ export default function Prefooter() {
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
                   >
-                    <i className="fab fa-dribbble" />
+                    <img
+                      src={require("assets/img/oikos-type.svg").default}
+                      style={{
+                        maxWidth:"8vh"
+                      }} 
+                    />
                   </Button>
                 </Col>
                 <Col md="2">
@@ -96,17 +131,12 @@ export default function Prefooter() {
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
                   >
-                    <i className="fab fa-youtube" />
-                  </Button>
-                </Col>
-                <Col md="2">
-                  <Button
-                    className="btn-simple btn-icon btn-footer"
-                    color="default"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fab fa-instagram" />
+                    <img
+                      src={require("assets/img/oikos-type.svg").default}
+                      style={{
+                        maxWidth:"8vh"
+                      }} 
+                    />
                   </Button>
                 </Col>
               </Row>

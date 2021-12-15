@@ -112,7 +112,7 @@
 .btn-success { @include btn-styles($success, $success-states);
 
               }
-.btn-info    { @include btn-styles($info, $info-states);
+.btn-info    { @include btn-styles($info, $dark);
 
               }
 .btn-warning { @include btn-styles($warning, $warning-states);
@@ -134,8 +134,6 @@
     }
 }
 .btn-simple{
-    border: $border;
-    border-color: $default;
     box-shadow: none;
     padding: $padding-btn-vertical - 1 $padding-round-horizontal - 1;
     background-color: $transparent-bg;

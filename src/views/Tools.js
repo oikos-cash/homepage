@@ -58,7 +58,7 @@ export default function Tools() {
           <Container>
             <Row>
               <Col className="mr-auto ml-auto text-center" md="8">
-                <h4 className="category text-muted">Oikos Network</h4>
+                <h2 className="category text-muted">Oikos Network</h2>
                 <h1 className="title mt-0">Tools</h1>
               </Col>
             </Row>
@@ -82,7 +82,7 @@ export default function Tools() {
                     <Button
                       color="info"
                       href="https://minter.oikos.cash/"
-                      onClick={(e) => e.preventDefault()}
+                      // target="_blank"
                     >
                       Visit
                     </Button>

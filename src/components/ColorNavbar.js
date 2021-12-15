@@ -61,7 +61,14 @@ export default function ColorNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand to="/index" tag={Link} id="tooltip6619950104">
-              <span>OIKOS•</span> DeFi on BSC
+              <img
+                src={require("assets/img/oikos-type.svg").default}
+                style={{
+                  maxHeight:"4vh",
+                }}
+                className="mr-1"
+              />
+              • DeFi on BSC
             </NavbarBrand>
             <button className="navbar-toggler" id="navigation">
               <span className="navbar-toggler-bar bar1" />
@@ -73,9 +80,13 @@ export default function ColorNavbar() {
             <div className="navbar-collapse-header">
               <Row>
                 <Col className="collapse-brand" xs="6">
-                  <a href="#" onClick={(e) => e.preventDefault()}>
-                    OIKOS• <span>DeFi on BSC</span>
-                  </a>
+                  <img
+                    src={require("assets/img/oikos-type.svg").default}
+                    style={{
+                      maxHeight:"4vh",
+                    }}
+                    className="mr-1"
+                  />
                 </Col>
                 <Col className="collapse-close text-right" xs="6">
                   <button className="navbar-toggler" id="navigation">
@@ -109,7 +120,7 @@ export default function ColorNavbar() {
               <NavItem>
                 <Button
                   className="nav-link ml-3"
-                  color="primary"
+                  color="info"
                   href="https://oikos.exchange"
                   size="sm"
                   target="_blank"
@@ -118,7 +129,7 @@ export default function ColorNavbar() {
                 </Button>
                 <Button
                   className="nav-link ml-3"
-                  color="info"
+                  color="default"
                   href="https://oikos.exchange"
                   size="sm"
                   target="_blank"

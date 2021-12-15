@@ -32,10 +32,10 @@ export default function Content() {
                   className="img rounded img-comments rellax"
                   data-rellax-speed="1"
                   src={
-                    require("assets/img/tokens.png").default
+                    require("assets/img/web-icons.png").default
                   }
                   style={{
-                    maxWidth:"350px",
+                    maxWidth:"100%",
                     marginTop:"-5vh",
                   }}
                 />
@@ -48,7 +48,11 @@ export default function Content() {
                   <strong>On Binance Smart Chain (BSC)</strong>
                 </h5>
                 <p className="description">
-                  {`Synthetic asset platform that provides on-chain exposure to fiat currencies, commodities, stocks, and indices. Synthetic assets (Synths) are backed by Oikos Network Tokens (OKS) locked into a smart contract as collateral. Synths track the prices of various assets, allowing crypto-native and unbanked users to trade P2C (peer-to-contract) on Oikos Exchange without liquidity limitations.`}
+                  {`Synthetic asset platform that provides on-chain exposure to fiat currencies, commodities, stocks, and indices. Synthetic assets (Synths) are backed by Oikos Network Tokens (OKS) locked into a smart contract as collateral.`}
+                </p>
+                <br/>
+                <p className="description">
+                  {`Synths track the prices of various assets, allowing crypto-native and unbanked users to trade P2C (peer-to-contract) on Oikos Exchange without liquidity limitations.`}
                 </p>
               </div>
             </Col>

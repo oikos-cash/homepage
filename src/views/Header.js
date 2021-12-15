@@ -162,20 +162,20 @@ export default function Headers() {
                   <br />
                   <div className="buttons">
                     <Button
-                    className="btn-round"
-                    color="info"
-                    href="https://nucleoapp.com/?ref=1712"
-                    size="lg"
-                    target="_blank"
-                  >
-                    Buy OKS
-                  </Button>
+                      className="btn-round"
+                      color="info"
+                      href="https://pancakeswap.finance/swap/0x18aCf236eB40c0d4824Fb8f2582EBbEcD325Ef6a?inputCurrency=BNB"
+                      size="lg"
+                      target="_blank"
+                    >
+                      Buy OKS
+                    </Button>
                     <Button
                       className="btn-round mr-3"
                       color="secondary"
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
+                      href="https://minter.oikos.cash/"
                       size="lg"
+                      target="_blank"
                     >
                       <p>Enter DaPP</p>
                     </Button>

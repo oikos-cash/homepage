@@ -54,7 +54,9 @@ export default function ScrollNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand to="/index" tag={Link} id="tooltip1995010466">
-              OIKOS
+              <img
+                src={require("assets/img/oikos-type.svg").default} 
+              />
             </NavbarBrand>
             <UncontrolledTooltip delay={0} target="tooltip1995010466">
               Decentralized Finance on BSC

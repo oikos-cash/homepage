@@ -23,7 +23,6 @@ export default function Highlights() {
   return (
     <>
       <div className="cd-section" id="features">
-        {/* ********* FEATURES 3 ********* */}
         <div className="features-3">
           <Container>
             <Row>
@@ -115,7 +114,6 @@ export default function Highlights() {
             </Row>
           </Container>
         </div>
-        {/* ********* END FEATURES 3 ********* */}
       </div>{" "}
     </>
   );

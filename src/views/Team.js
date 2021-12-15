@@ -62,7 +62,7 @@ export default function Team() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
-                <h2 className="title">Team</h2>
+                <h1 className="title">Team</h1>
                 <h4 className="description">
                 Blockchain engineers, mad scientists and marketing ninjas. <a href="#">We're hiring!</a>
                 </h4>

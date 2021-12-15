@@ -159,7 +159,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .icon-atom::before {
-  content: "\ea06";
+  content: url("assets/img/oDOT-icon.svg");
 }
 
 .icon-attach-87::before {
@@ -255,7 +255,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .icon-coins::before {
-  content: "\ea1e";
+  content: url("assets/img/oBNB-icon.svg");
 }
 
 .icon-compass-05::before {
@@ -287,7 +287,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .icon-gift-2::before {
-  content: "\ea26";
+  content: url("assets/img/oETH-icon.svg");
 }
 
 .icon-globe-2::before {
@@ -314,8 +314,8 @@ Created using IcoMoon - icomoon.io
   content: "\ea2c";
 }
 
-.icon-key-25::before {
-  content: "\ea2d";
+.icon-oUSD::before {
+  content: url("assets/img/oUSD-icon.svg");
 }
 
 .icon-laptop::before {
@@ -327,7 +327,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .icon-link-72::before {
-  content: "\ea30";
+  content: url("assets/img/oCAKE-icon.svg");
 }
 
 .icon-lock-circle::before {
@@ -355,7 +355,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .icon-mobile::before {
-  content: "\ea37";
+  content: url("assets/img/oBTC-icon.svg");
 }
 
 .icon-molecule-40::before {
@@ -363,7 +363,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .icon-money-coins::before {
-  content: "\ea39";
+  content: url("assets/img/oETH-icon.svg");
 }
 
 .icon-notes::before {
@@ -395,7 +395,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .icon-satisfied::before {
-  content: "\ea41";
+  content: url("assets/img/oBTC-icon.svg");
 }
 
 .icon-scissors::before {
@@ -403,7 +403,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .icon-send::before {
-  content: "\ea43";
+  content: url("assets/img/oDOT-icon.svg");
 }
 
 .icon-settings-gear-63::before {
@@ -439,7 +439,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .icon-spaceship::before {
-  content: "\ea4c";
+  content: url("assets/img/oXAU-icon.svg");
 }
 
 .icon-square-pin::before {
@@ -459,7 +459,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .icon-tap-02::before {
-  content: "\ea51";
+  content: url("assets/img/oICP-icon.svg");
 }
 
 .icon-tie-bow::before {
@@ -507,7 +507,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .icon-wallet-43::before {
-  content: "\ea5d";
+  content: url("assets/img/oCAKE-icon.svg");
 }
 
 .icon-watch-time::before {
@@ -515,7 +515,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .icon-wifi::before {
-  content: "\ea5f";
+  content: url("assets/img/oICP-icon.svg");
 }
 
 .icon-world::before {
