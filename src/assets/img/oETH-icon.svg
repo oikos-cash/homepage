@@ -1,1 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" enable-background="new -329 131 300 300" height="70" width="70" viewBox="-329 131 300 300"><title>oETH icon</title><g class="nc-icon-wrapper"><circle id="Circle" class="st0" cx="-181" cy="281" r="150" fill="#45992F"></circle><path class="st1" d="M-145.6 329.5v-26.1h7.2v17.8h8.7v-14.4h6.8v14.4h9v-18.4h7.2v26.7h-38.9zm0-29.6v-30.8h7.2v11.2h31.7v8.3h-31.7v11.2h-7.2v.1zm0-35.3v-8.3h15.6v-15.4h-15.6v-8.3h38.8v8.3h-16v15.4h16v8.3h-38.8z" fill="#FFFFFF"></path><path class="st1" d="M-185.9 242.5v77.1H-263v-77.1h77.1m10-10H-273v97.1h97.1v-97.1z" id="XMLID_2_" fill="#FFFFFF"></path><path class="st1" id="XMLID_1_" d="M-155.5 232.5h-10v97h10z" fill="#FFFFFF"></path></g></svg>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    enable-background="new -329 131 300 300" 
+    height="70" 
+    width="70" 
+    viewBox="-329 131 300 300"
+>
+    <title>
+        oETH icon
+    </title>
+    <g 
+        class="nc-icon-wrapper"
+    >
+        <circle 
+            id="Circle" 
+            class="st0" 
+            cx="-181" 
+            cy="281" 
+            r="150" 
+            fill="#45992F"
+        >
+        </circle>
+        <path 
+            class="st1" 
+            d="M-145.6 329.5v-26.1h7.2v17.8h8.7v-14.4h6.8v14.4h9v-18.4h7.2v26.7h-38.9zm0-29.6v-30.8h7.2v11.2h31.7v8.3h-31.7v11.2h-7.2v.1zm0-35.3v-8.3h15.6v-15.4h-15.6v-8.3h38.8v8.3h-16v15.4h16v8.3h-38.8z" 
+            fill="#FFFFFF"
+        >
+        </path>
+        <path 
+            class="st1" 
+            d="M-185.9 242.5v77.1H-263v-77.1h77.1m10-10H-273v97.1h97.1v-97.1z" 
+            id="XMLID_2_" 
+            fill="#FFFFFF"
+        >
+        </path>
+        <path 
+            class="st1" 
+            id="XMLID_1_" 
+            d="M-155.5 232.5h-10v97h10z" 
+            fill="#FFFFFF">
+        </path>
+    </g>
+</svg>

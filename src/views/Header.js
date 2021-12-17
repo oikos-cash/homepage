@@ -82,7 +82,7 @@ const PrevButton = (props) => {
       type="button"
       onClick={props.onClick}
     >
-      <i className="tim-icons icon-minimal-left" />
+      <i className="oikos-icons icon-minimal-left" />
     </Button>
   );
 };
@@ -95,7 +95,7 @@ const NextButton = (props) => {
       aria-label="Next"
       type="button"
     >
-      <i className="tim-icons icon-minimal-right" onClick={props.onClick} />
+      <i className="oikos-icons icon-minimal-right" onClick={props.onClick} />
     </Button>
   );
 };

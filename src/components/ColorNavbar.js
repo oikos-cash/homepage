@@ -85,19 +85,12 @@ export default function ColorNavbar() {
                 </Col>
                 <Col className="collapse-close text-right" xs="6">
                   <button className="navbar-toggler" id="navigation">
-                    <i className="tim-icons icon-simple-remove" />
+                    <i className="oikos-icons icon-simple-remove" />
                   </button>
                 </Col>
               </Row>
             </div>
             <Nav className="ml-auto" navbar>
-              <a 
-                href="#"
-                className="nav-link text-white"
-                target="_blank"
-              >
-                BSCScan
-              </a>
               <a 
                 href="https://stats.oikos.cash/"
                 className="nav-link text-white ml-3"
@@ -118,6 +111,13 @@ export default function ColorNavbar() {
                 target="_blank"
               >
                 Audit
+              </a>
+              <a 
+                href="#"
+                className="nav-link text-white ml-3"
+                target="_blank"
+              >
+                BSCScan
               </a>
               <NavItem>
                 <Button

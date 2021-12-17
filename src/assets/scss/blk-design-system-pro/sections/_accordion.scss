@@ -12,12 +12,12 @@
       .card-header{
         padding: 10px 15px;
         .btn[aria-expanded="true"]{
-          .tim-icons{
+          .oikos-icons{
             transform: rotate(180deg);
           }
         }
 
-        .tim-icons{
+        .oikos-icons{
           transition: 0.1s ease;
         }
       }

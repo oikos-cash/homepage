@@ -8506,7 +8506,7 @@ a.text-darker:hover, a.text-darker:focus {
   .alert.alert-success {
     background-color: #00bf9a; }
   .alert i.fa,
-  .alert i.tim-icons {
+  .alert i.oikos-icons {
     font-size: 1rem; }
   .alert .close {
     color: #ffffff;
@@ -8731,16 +8731,16 @@ a.text-darker:hover, a.text-darker:focus {
       .btn-group-sm > .btn.btn-icon .far,
       .btn.btn-icon.btn-sm .fas,
       .btn-group-sm > .btn.btn-icon .fas,
-      .btn.btn-icon.btn-sm .tim-icons,
-      .btn-group-sm > .btn.btn-icon .tim-icons,
+      .btn.btn-icon.btn-sm .oikos-icons,
+      .btn-group-sm > .btn.btn-icon .oikos-icons,
       .navbar .navbar-nav > a.btn.btn-icon.btn-sm .fa,
       .navbar .btn-group-sm.navbar-nav > a.btn.btn-icon .fa,
       .navbar .navbar-nav > a.btn.btn-icon.btn-sm .far,
       .navbar .btn-group-sm.navbar-nav > a.btn.btn-icon .far,
       .navbar .navbar-nav > a.btn.btn-icon.btn-sm .fas,
       .navbar .btn-group-sm.navbar-nav > a.btn.btn-icon .fas,
-      .navbar .navbar-nav > a.btn.btn-icon.btn-sm .tim-icons,
-      .navbar .btn-group-sm.navbar-nav > a.btn.btn-icon .tim-icons {
+      .navbar .navbar-nav > a.btn.btn-icon.btn-sm .oikos-icons,
+      .navbar .btn-group-sm.navbar-nav > a.btn.btn-icon .oikos-icons {
         font-size: 0.6875rem; }
     .btn.btn-icon.btn-lg, .btn-group-lg > .btn.btn-icon,
     .navbar .navbar-nav > a.btn.btn-icon.btn-lg,
@@ -8755,8 +8755,8 @@ a.text-darker:hover, a.text-darker:focus {
       .btn-group-lg > .btn.btn-icon .fas,
       .btn.btn-icon.btn-lg .fab,
       .btn-group-lg > .btn.btn-icon .fab,
-      .btn.btn-icon.btn-lg .tim-icons,
-      .btn-group-lg > .btn.btn-icon .tim-icons,
+      .btn.btn-icon.btn-lg .oikos-icons,
+      .btn-group-lg > .btn.btn-icon .oikos-icons,
       .navbar .navbar-nav > a.btn.btn-icon.btn-lg .fa,
       .navbar .btn-group-lg.navbar-nav > a.btn.btn-icon .fa,
       .navbar .navbar-nav > a.btn.btn-icon.btn-lg .far,
@@ -8765,15 +8765,15 @@ a.text-darker:hover, a.text-darker:focus {
       .navbar .btn-group-lg.navbar-nav > a.btn.btn-icon .fas,
       .navbar .navbar-nav > a.btn.btn-icon.btn-lg .fab,
       .navbar .btn-group-lg.navbar-nav > a.btn.btn-icon .fab,
-      .navbar .navbar-nav > a.btn.btn-icon.btn-lg .tim-icons,
-      .navbar .btn-group-lg.navbar-nav > a.btn.btn-icon .tim-icons {
+      .navbar .navbar-nav > a.btn.btn-icon.btn-lg .oikos-icons,
+      .navbar .btn-group-lg.navbar-nav > a.btn.btn-icon .oikos-icons {
         font-size: 1.325rem !important; }
-    .btn.btn-icon:not(.btn-footer) .tim-icons,
+    .btn.btn-icon:not(.btn-footer) .oikos-icons,
     .btn.btn-icon:not(.btn-footer) .fa,
     .btn.btn-icon:not(.btn-footer) .far,
     .btn.btn-icon:not(.btn-footer) .fas,
     .btn.btn-icon:not(.btn-footer) .fab,
-    .navbar .navbar-nav > a.btn.btn-icon:not(.btn-footer) .tim-icons,
+    .navbar .navbar-nav > a.btn.btn-icon:not(.btn-footer) .oikos-icons,
     .navbar .navbar-nav > a.btn.btn-icon:not(.btn-footer) .fa,
     .navbar .navbar-nav > a.btn.btn-icon:not(.btn-footer) .far,
     .navbar .navbar-nav > a.btn.btn-icon:not(.btn-footer) .fas,
@@ -8785,8 +8785,8 @@ a.text-darker:hover, a.text-darker:focus {
       transform: translate(-12px, -12px);
       line-height: 1.5626rem;
       width: 24px; }
-  .btn:not(.btn-icon) .tim-icons,
-  .navbar .navbar-nav > a.btn:not(.btn-icon) .tim-icons {
+  .btn:not(.btn-icon) .oikos-icons,
+  .navbar .navbar-nav > a.btn:not(.btn-icon) .oikos-icons {
     position: relative;
     top: -1px; }
   .btn span,
@@ -9574,7 +9574,7 @@ fieldset[disabled]
     margin-right: 5px;
     position: relative;
     top: 1px; }
-  .dropdown-menu .tim-icons {
+  .dropdown-menu .oikos-icons {
     margin-right: 10px;
     position: relative;
     top: 4px;
@@ -10054,7 +10054,7 @@ img {
     margin-bottom: 0; }
   .modal-content .modal-header .modal-title {
     color: #222a42; }
-  .modal-content .modal-header i.tim-icons {
+  .modal-content .modal-header i.oikos-icons {
     font-size: 16px; }
   .modal-content .modal-header .modal-profile {
     width: 70px;
@@ -11031,7 +11031,7 @@ img {
     margin-left: 20px;
     position: relative; }
   .navbar-nav .nav-link i.fa,
-  .navbar-nav .nav-link i.tim-icons {
+  .navbar-nav .nav-link i.oikos-icons {
     opacity: .5; }
   @keyframes topbar-x {
     0% {
@@ -11637,7 +11637,7 @@ hr {
     border-radius: 0.1875rem;
     padding: 0 10px;
     background: linear-gradient(#222a42, #1d253b); }
-  .fixed-plugin .dropdown .dropdown-menu .tim-icons {
+  .fixed-plugin .dropdown .dropdown-menu .oikos-icons {
     top: 5px; }
   .fixed-plugin .dropdown-menu:after,
   .fixed-plugin .dropdown-menu:before {
@@ -12013,7 +12013,7 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
 .bd-docs .bd-example .btn .badge {
   display: inline-block; }
 
-.bd-docs .bd-example .tim-icons {
+.bd-docs .bd-example .oikos-icons {
   color: #ffffff; }
 
 .bd-docs .bd-example .popover .popover-header {
@@ -12056,14 +12056,14 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
 .bd-docs table .h6 {
   color: rgba(255, 255, 255, 0.8); }
 
-.bd-docs .bd-example .datepicker thead th, .bd-docs .bd-example .datepicker table thead th, .bd-docs .bd-example .datepicker .tim-icons,
+.bd-docs .bd-example .datepicker thead th, .bd-docs .bd-example .datepicker table thead th, .bd-docs .bd-example .datepicker .oikos-icons,
 .bd-docs table .datepicker thead th,
 .bd-docs table .datepicker table thead th,
-.bd-docs table .datepicker .tim-icons {
+.bd-docs table .datepicker .oikos-icons {
   color: #e14eca; }
 
-.bd-docs .bd-example .picker-switch .tim-icons,
-.bd-docs table .picker-switch .tim-icons {
+.bd-docs .bd-example .picker-switch .oikos-icons,
+.bd-docs table .picker-switch .oikos-icons {
   color: #e14eca; }
 
 .bd-docs .footer .container-fluid > nav, .bd-docs .footer .container-sm > nav, .bd-docs .footer .container-md > nav, .bd-docs .footer .container-lg > nav, .bd-docs .footer .container-xl > nav {
@@ -12600,8 +12600,8 @@ textarea.form-control {
 .input-group-prepend {
   margin-right: 0; }
 
-.input-group-prepend .tim-icons,
-.input-group-append .tim-icons {
+.input-group-prepend .oikos-icons,
+.input-group-append .oikos-icons {
   font-size: 1rem; }
 
 .progress-container {
@@ -12729,7 +12729,7 @@ textarea.form-control {
   min-width: auto;
   padding: 0;
   width: 80px; }
-  .nav-pills.nav-pills-just-icons .nav-item .nav-link .tim-icons {
+  .nav-pills.nav-pills-just-icons .nav-item .nav-link .oikos-icons {
     font-size: 24px;
     line-height: 80px; }
 
@@ -13066,9 +13066,9 @@ html {
       border-bottom: none !important; }
     .accordion-1 .accordion .card .card-header {
       padding: 10px 15px; }
-      .accordion-1 .accordion .card .card-header .btn[aria-expanded="true"] .tim-icons {
+      .accordion-1 .accordion .card .card-header .btn[aria-expanded="true"] .oikos-icons {
         transform: rotate(180deg); }
-      .accordion-1 .accordion .card .card-header .tim-icons {
+      .accordion-1 .accordion .card .card-header .oikos-icons {
         transition: 0.1s ease; }
     .accordion-1 .accordion .card .card-body {
       padding: 10px 30px 30px; }
@@ -13796,8 +13796,8 @@ html {
     margin-left: 5px; } }
 
 @media screen and (max-width: 768px) {
-  .testimonials-1 .carousel-team .carousel-control-next .tim-icons,
-  .testimonials-1 .carousel-team .carousel-control-prev .tim-icons {
+  .testimonials-1 .carousel-team .carousel-control-next .oikos-icons,
+  .testimonials-1 .carousel-team .carousel-control-prev .oikos-icons {
     border: 1px solid #fff;
     border-radius: 50%;
     padding: 5px; }
@@ -14871,7 +14871,7 @@ html {
     font-size: 4em; }
   .ecommerce-page .carousel-team .carousel-control-next, .carousel-team .carousel-control-prev {
     top: 100%; }
-    .ecommerce-page .carousel-team .carousel-control-next .tim-icons, .carousel-team .carousel-control-prev .tim-icons {
+    .ecommerce-page .carousel-team .carousel-control-next .oikos-icons, .carousel-team .carousel-control-prev .oikos-icons {
       border: 1px solid #ffffff;
       border-radius: 50%;
       padding: 5px; }
@@ -14890,8 +14890,8 @@ html {
   .about-us .carousel-team .carousel-control-prev,
   .about-us .carousel-team .carousel-control-next {
     top: 103%; }
-    .about-us .carousel-team .carousel-control-prev .tim-icons,
-    .about-us .carousel-team .carousel-control-next .tim-icons {
+    .about-us .carousel-team .carousel-control-prev .oikos-icons,
+    .about-us .carousel-team .carousel-control-next .oikos-icons {
       border: 1px solid #fff;
       border-radius: 50%;
       padding: 5px; }
@@ -15471,7 +15471,7 @@ html {
   position: relative;
   top: 1px; }
 
-.dropdown-menu .tim-icons {
+.dropdown-menu .oikos-icons {
   margin-right: 10px;
   position: relative;
   top: 4px;
@@ -17213,7 +17213,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   padding: 8px 6px;
   width: 254px;
   max-width: 254px; }
-  .bootstrap-datetimepicker-widget.dropdown-menu .tim-icons {
+  .bootstrap-datetimepicker-widget.dropdown-menu .oikos-icons {
     opacity: 1; }
   .bootstrap-datetimepicker-widget.dropdown-menu .picker-switch .table-condensed:hover {
     background: #eee;
@@ -18324,8 +18324,8 @@ select.selectpicker {
       line-height: 1.25em; }
     .card .card-body .card-description, .card .card-body .card-category {
       color: rgba(255, 255, 255, 0.6); }
-  .card .category .tim-icons,
-  .card .category-social .tim-icons {
+  .card .category .oikos-icons,
+  .card .category-social .oikos-icons {
     margin-right: 3px; }
   .card .card-header {
     padding: 15px 15px 0;
@@ -18411,7 +18411,7 @@ select.selectpicker {
   padding: 1.25rem; }
 
 @media (max-width: 767.98px) {
-  .card.card-chart .card-header .btn-group-toggle .tim-icons {
+  .card.card-chart .card-header .btn-group-toggle .oikos-icons {
     font-size: .875rem;
     top: -1px; } }
 
@@ -20674,7 +20674,7 @@ This file was modified entirely by Creative Tim for React-Select v2.0.0
     .nav-tabs > .nav-item > .nav-link.active {
       border: 1px solid #ffffff;
       border-radius: 30px; }
-    .nav-tabs > .nav-item > .nav-link i.tim-icons {
+    .nav-tabs > .nav-item > .nav-link i.oikos-icons {
       font-size: 14px;
       position: relative;
       top: -1px;

@@ -58,7 +58,7 @@ export default function FAQ() {
                           onClick={() => openCollapse(1)}
                         >
                           Where do I buy OKS?{" "}
-                          <i className="tim-icons icon-minimal-down float-right" />
+                          <i className="oikos-icons icon-minimal-down float-right" />
                         </Button>
                       </h5>
                     </CardHeader>
@@ -89,7 +89,7 @@ export default function FAQ() {
                           onClick={() => openCollapse(2)}
                         >
                           What is Oikos?{" "}
-                          <i className="tim-icons icon-minimal-down float-right" />
+                          <i className="oikos-icons icon-minimal-down float-right" />
                         </Button>
                       </h5>
                     </CardHeader>
@@ -120,7 +120,7 @@ export default function FAQ() {
                           onClick={() => openCollapse(3)}
                         >
                           How much time does it take to receive the order?{" "}
-                          <i className="tim-icons icon-minimal-down float-right" />
+                          <i className="oikos-icons icon-minimal-down float-right" />
                         </Button>
                       </h5>
                     </CardHeader>
@@ -151,7 +151,7 @@ export default function FAQ() {
                           onClick={() => openCollapse(4)}
                         >
                           What are synthetic assets?{" "}
-                          <i className="tim-icons icon-minimal-down float-right" />
+                          <i className="oikos-icons icon-minimal-down float-right" />
                         </Button>
                       </h5>
                     </CardHeader>
@@ -182,7 +182,7 @@ export default function FAQ() {
                           onClick={() => openCollapse(5)}
                         >
                           Where do I find the shipping details?{" "}
-                          <i className="tim-icons icon-minimal-down float-right" />
+                          <i className="oikos-icons icon-minimal-down float-right" />
                         </Button>
                       </h5>
                     </CardHeader>

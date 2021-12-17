@@ -59,7 +59,7 @@ export default function Prefooter() {
                             >
                               <InputGroupAddon addonType="prepend">
                                 <InputGroupText>
-                                  <i className="tim-icons icon-email-85" />
+                                  <i className="oikos-icons icon-email-85" />
                                 </InputGroupText>
                               </InputGroupAddon>
                               <Input

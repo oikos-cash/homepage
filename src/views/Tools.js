@@ -15,29 +15,14 @@
 
 */
 import React from "react";
+import stats from 'assets/img/stats.png'
 
 // reactstrap components
 import {
-  Badge,
   Button,
   Card,
-  CardHeader,
   CardBody,
-  CardFooter,
   CardTitle,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
-  Navbar,
-  NavItem,
-  NavLink,
-  Nav,
-  Pagination,
-  PaginationItem,
-  PaginationLink,
-  TabContent,
-  TabPane,
   Container,
   Row,
   Col,
@@ -69,7 +54,9 @@ export default function Tools() {
                   className="card-background"
                   style={{
                     backgroundImage:
-                      "linear-gradient(135deg, #3c3c3c, #1a1a1a)",
+                    "url(" + require("assets/img/minter.png").default + ")",
+                    backgroundPosition:
+                      "left",
                   }}
                 >
                   <CardBody className="text-left">
@@ -94,7 +81,9 @@ export default function Tools() {
                   className="card-background"
                   style={{
                     backgroundImage:
-                      "linear-gradient(135deg, #3c3c3c, #1a1a1a)",
+                      "url(" + require("assets/img/exchange.png").default + ")",
+                    backgroundPosition:
+                      "right",
                   }}
                 >
                   <CardBody className="text-left">
@@ -119,7 +108,9 @@ export default function Tools() {
                   className="card-background"
                   style={{
                     backgroundImage:
-                      "linear-gradient(135deg, #3c3c3c, #1a1a1a)",
+                    "url(" + require("assets/img/stats.png").default + ")",
+                    backgroundPosition:
+                      "left",
                   }}
                 >
                   <CardBody className="text-left">

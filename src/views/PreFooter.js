@@ -49,7 +49,7 @@ export default function Prefooter() {
           <div className="social-line social-line-big-icons">
             <Container>
               <Row>
-                <Col md="2">
+                <Col md="3">
                   <Button
                     className="btn-simple btn-icon btn-footer"
                     color="default"
@@ -65,7 +65,7 @@ export default function Prefooter() {
                     />
                   </Button>
                 </Col>
-                <Col md="2">
+                <Col md="3">
                   <Button
                     className="btn-simple btn-icon btn-footer"
                     color="default"
@@ -80,7 +80,7 @@ export default function Prefooter() {
                     />
                   </Button>
                 </Col>
-                <Col md="2">
+                <Col md="3">
                   <Button
                     className="btn-simple btn-icon btn-footer"
                     href="https://coinmarketcap.com/"
@@ -94,7 +94,7 @@ export default function Prefooter() {
                     />
                   </Button>
                 </Col>
-                <Col md="2">
+                <Col md="3">
                   <Button
                     className="btn-simple btn-icon btn-footer"
                     color="default"
@@ -107,35 +107,6 @@ export default function Prefooter() {
                         maxWidth:"100%"
                       }} 
                       alt="Chainlink"
-                    />
-                  </Button>
-                </Col>
-                <Col md="2">
-                  <Button
-                    className="btn-simple btn-icon btn-footer"
-                    color="default"
-                    href="https://coingecko.com/"
-                    target="_blank"
-                  >
-                    <img
-                      src={require("assets/img/coingecko-logo.png").default}
-                      style={{
-                        maxWidth:"100%"
-                      }} 
-                    />
-                  </Button>
-                </Col>
-                <Col md="2">
-                  <Button
-                    className="btn-simple btn-icon btn-footer"
-                    href="https://coinmarketcap.com/"
-                    target="_blank"
-                  >
-                    <img
-                      src={require("assets/img/coinmarketcap-logo.png").default}
-                      style={{
-                        maxWidth:"100%"
-                      }} 
                     />
                   </Button>
                 </Col>

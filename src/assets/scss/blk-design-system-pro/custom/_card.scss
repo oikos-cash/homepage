@@ -39,7 +39,7 @@
     }
     .category,
     .category-social {
-      .tim-icons {
+      .oikos-icons {
         margin-right: 3px;
       }
     }
@@ -189,7 +189,7 @@
 
 @include media-breakpoint-down(sm) {
   .card.card-chart .card-header {
-    .btn-group-toggle .tim-icons {
+    .btn-group-toggle .oikos-icons {
       font-size: .875rem;
       top: -1px;
     }

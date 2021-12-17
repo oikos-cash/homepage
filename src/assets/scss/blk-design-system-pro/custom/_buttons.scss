@@ -50,7 +50,7 @@
             .fa,
             .far,
             .fas,
-            .tim-icons{
+            .oikos-icons{
                 font-size: $icon-font-size-sm;
             }
         }
@@ -64,12 +64,12 @@
             .far,
             .fas,
             .fab,
-            .tim-icons{
+            .oikos-icons{
               font-size: $icon-font-size-lg !important;
             }
         }
 
-        &:not(.btn-footer) .tim-icons,
+        &:not(.btn-footer) .oikos-icons,
         &:not(.btn-footer) .fa,
         &:not(.btn-footer) .far,
         &:not(.btn-footer) .fas,
@@ -85,7 +85,7 @@
 
     }
 
-    &:not(.btn-icon) .tim-icons{
+    &:not(.btn-icon) .oikos-icons{
         position: relative;
         top: -1px;
     }
