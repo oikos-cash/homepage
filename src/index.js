@@ -28,11 +28,15 @@ import Index from "views/Index.js";
 // example pages
 import Error404 from "views/examples/Error404.js";
 import Error500 from "views/examples/Error500.js";
+import Terms from "terms.js";
+import PrivacyMain from "privacy.js";
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/index" render={(props) => <Index {...props} />} />
+      <Route path="/terms" render={(props) => <Terms {...props} />} />
+      <Route path="/privacy" render={(props) => <PrivacyMain {...props} />} />
       <Route path="/404-error" render={(props) => <Error404 {...props} />} />
       <Route path="/500-error" render={(props) => <Error500 {...props} />} />
       <Redirect from="/" to="/index" />
