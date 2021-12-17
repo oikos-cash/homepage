@@ -15,7 +15,6 @@
 
 */
 import React from "react";
-import { Link } from "react-router-dom";
 
 // reactstrap components
 import {
@@ -46,7 +45,7 @@ export default function Footer() {
             <Col md="3" xs="6">
               <Nav>
                 <NavItem>
-                  <a href="https://medium.com/@oikoscash">
+                  <a href="https://medium.com/@oikoscash" target="_blank">
                     Blog
                   </a>
                 </NavItem>

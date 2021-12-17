@@ -43,7 +43,7 @@ export default function Error500() {
             className="page-header-image"
             style={{
               backgroundImage:
-                "url(" + require("assets/img/randy-colas.jpg").default + ")",
+                "url(" + require("assets/img/oikos-type.svg").default + ")",
             }}
           />
           <Container>
