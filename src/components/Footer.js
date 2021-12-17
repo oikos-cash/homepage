@@ -21,7 +21,6 @@ import { Link } from "react-router-dom";
 import {
   Button,
   NavItem,
-  NavLink,
   Nav,
   Container,
   Row,
@@ -47,13 +46,13 @@ export default function Footer() {
             <Col md="3" xs="6">
               <Nav>
                 <NavItem>
-                  <a href="#">
-                    Home
+                  <a href="https://medium.com/@oikoscash">
+                    Blog
                   </a>
                 </NavItem>
                 <NavItem>
-                  <a href="https://stats.oikos.cash/" target="_blank">
-                    Stats
+                  <a href="https://docs.oikos.cash/litepaper/" target="_blank">
+                    Litepaper
                   </a>
                 </NavItem>
               </Nav>
@@ -61,13 +60,13 @@ export default function Footer() {
             <Col md="3" xs="6">
               <Nav>
                 <NavItem>
-                  <a href="https://oikos.exchange/" target="_blank">
-                    Exchange
+                  <a href="https://oikos.cash/terms" target="_blank">
+                    Terms of Use
                   </a>
                 </NavItem>
                 <NavItem>
-                  <a href="https://dashboard.oikos.cash/" target="_blank">
-                    Dashboard
+                  <a href="https://oikos.cash/privacy" target="_blank">
+                    Privacy Policy
                   </a>
                 </NavItem>
               </Nav>
@@ -78,7 +77,7 @@ export default function Footer() {
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple"
                   color="default"
-                  href="https://twitter.com/creativetim"
+                  href="https://twitter.com/oikos_cash"
                   id="tooltip39661217"
                   target="_blank"
                 >
@@ -90,7 +89,7 @@ export default function Footer() {
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple ml-1"
                   color="default"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://github.com/orgs/oikos-cash/"
                   id="tooltip206037619"
                   target="_blank"
                 >
@@ -102,11 +101,23 @@ export default function Footer() {
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple ml-1"
                   color="default"
-                  href="https://dribbble.com/creativetim"
+                  href="https://discord.gg/VVDu6Er"
                   id="tooltip750293512"
                   target="_blank"
                 >
                   <i className="fab fa-discord" />
+                </Button>
+                <UncontrolledTooltip delay={0} target="tooltip750293512">
+                  Follow us
+                </UncontrolledTooltip>
+                <Button
+                  className="btn-icon btn-neutral btn-round btn-simple ml-1"
+                  color="default"
+                  href="https://t.me/oikoscash"
+                  id="tooltip750293512"
+                  target="_blank"
+                >
+                  <i className="fab fa-telegram" />
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip750293512">
                   Follow us

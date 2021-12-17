@@ -27,8 +27,9 @@ export default function Notifications() {
           <div className="space" />
           <UncontrolledAlert className="alert default" color="darker">
             <span>
-              <h2 className="mt-3"><b>Oikos has migrated to Binance Smart Chain on 02/02/21.</b></h2>
-              <h3>Checkout the new statistics website at <a href="https://stats.oikos.cash/" target="_blank" style={{color:"lightgreen",}}>stats.oikos.cash</a>.</h3>
+              <h2 className="mt-3"><b>Oikos has migrated to Binance Smart Chain.</b></h2>
+              <h3>Complete your migration via our <a href="https://oks-portal.oikos.cash/" target="_blank">migration portal</a>.<br/>
+              Check out the new statistics website at <a href="https://stats.oikos.cash/" target="_blank" style={{color:"lightgreen",}}>stats.oikos.cash</a>.</h3>
             </span>
           </UncontrolledAlert>
         </Container>

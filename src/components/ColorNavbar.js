@@ -20,10 +20,6 @@ import { Link } from "react-router-dom";
 import {
   Button,
   UncontrolledCollapse,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
   NavbarBrand,
   Navbar,
   NavItem,
@@ -31,7 +27,6 @@ import {
   Container,
   Row,
   Col,
-  UncontrolledTooltip,
 } from "reactstrap";
 
 export default function ColorNavbar() {
@@ -101,7 +96,7 @@ export default function ColorNavbar() {
                 className="nav-link text-white"
                 target="_blank"
               >
-                Home
+                BSCScan
               </a>
               <a 
                 href="https://stats.oikos.cash/"
@@ -111,17 +106,24 @@ export default function ColorNavbar() {
                 Stats
               </a>
               <a 
-                href="https://dashboard.oikos.cash/"
+                href="https://docs.oikos.cash/"
                 className="nav-link text-white ml-3"
                 target="_blank"
               >
-                Dashboard
+                Docs
+              </a>
+              <a 
+                href="https://raw.githubusercontent.com/oikos-cash/oikos-bsc/master/audit/AUDIT.pdf"
+                className="nav-link text-white ml-3"
+                target="_blank"
+              >
+                Audit
               </a>
               <NavItem>
                 <Button
                   className="nav-link ml-3"
                   color="info"
-                  href="https://oikos.exchange"
+                  href="https://minter.oikos.cash/"
                   size="sm"
                   target="_blank"
                 >
