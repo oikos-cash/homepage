@@ -59,12 +59,12 @@ export default function Footer() {
             <Col md="3" xs="6">
               <Nav>
                 <NavItem>
-                  <a href="https://oikos.cash/terms" target="_blank">
+                  <a href="/terms">
                     Terms of Use
                   </a>
                 </NavItem>
                 <NavItem>
-                  <a href="https://oikos.cash/privacy" target="_blank">
+                  <a href="/privacy">
                     Privacy Policy
                   </a>
                 </NavItem>

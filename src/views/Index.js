@@ -38,6 +38,9 @@ import Synths from "./Synths.js";
 import PreFooter from "./PreFooter.js";
 import Subscribe from "./Subscribe.js";
 
+// CSS
+import "assets/css/styles.css"
+
 export default function Sections() {
   const wrapper = React.useRef(null);
   React.useEffect(() => {

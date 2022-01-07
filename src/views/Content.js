@@ -29,8 +29,7 @@ export default function Content() {
               <div className="image-container">
                 <img
                   alt="..."
-                  className="img rounded img-comments rellax"
-                  data-rellax-speed="1"
+                  className="img rounded hidden-xs img-comments hiddenxyz rellax"
                   src={
                     require("assets/img/features_3.svg").default
                   }

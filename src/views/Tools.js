@@ -142,9 +142,9 @@ export default function Tools() {
                     <h6 className="card-category">
                     </h6>
                     <a href="https://dashboard.oikos.cash/" target="_blank">
-                      <CardTitle tag="h2">Dashboard</CardTitle>
+                      <CardTitle tag="h2">User Guide</CardTitle>
                     </a>
-                    <h6 className="desc">Distribution</h6>
+                    <h6 className="desc">Tutorials</h6>
                     <Button
                       color="info"
                       href="https://dashboard.oikos.cash/"

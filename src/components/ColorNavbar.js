@@ -113,7 +113,7 @@ export default function ColorNavbar() {
                 Audit
               </a>
               <a 
-                href="#"
+                href="https://bscscan.com/token/0x18aCf236eB40c0d4824Fb8f2582EBbEcD325Ef6a"
                 className="nav-link text-white ml-3"
                 target="_blank"
               >
