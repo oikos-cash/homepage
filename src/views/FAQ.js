@@ -41,7 +41,7 @@ export default function FAQ() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="6">
-                <h2 className="title mb-4 mt-5">Frequently asked question</h2>
+                <h2 className="title mb-4 mt-5">Frequently asked questions</h2>
                 <div className="section-space" />
               </Col>
             </Row>
@@ -57,25 +57,14 @@ export default function FAQ() {
                           aria-expanded={collapse === 2}
                           onClick={() => openCollapse(2)}
                         >
-                          What is Oikos?{" "}
+                          What is DeFi?{" "}
                           <i className="oikos-icons icon-minimal-down float-right" />
                         </Button>
                       </h5>
                     </CardHeader>
                     <Collapse isOpen={collapse === 2}>
                       <CardBody>
-                        Anim pariatur cliche reprehenderit, enim eiusmod high
-                        life accusamus terry richardson ad squid. 3 wolf moon
-                        officia aute, non cupidatat skateboard dolor brunch.
-                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-                        wolf moon tempor, sunt aliqua put a bird on it squid
-                        single-origin coffee nulla assumenda shoreditch et.
-                        Nihil anim keffiyeh helvetica, craft beer labore wes
-                        anderson cred nesciunt sapiente ea proident. Ad vegan
-                        excepteur butcher vice lomo. Leggings occaecat craft
-                        beer farm-to-table, raw denim aesthetic synth nesciunt
-                        you probably haven't heard of them accusamus labore
-                        sustainable VHS.
+                          DeFi (or “decentralized finance”) is an umbrella term for financial services on public blockchains, such as Binance Smart Chain (BSC). With DeFi, you can do most of the things that banks support — earn interest, borrow, lend, trade derivatives, trade assets, buy insurance, and more — but it’s faster and doesn’t require paperwork or a third party. As with crypto generally, DeFi is global, peer-to-peer (meaning directly between two people, not routed through a centralized system), pseudonymous, and open to all. 
                       </CardBody>
                     </Collapse>
                   </Card>
@@ -88,14 +77,14 @@ export default function FAQ() {
                           aria-expanded={collapse === 3}
                           onClick={() => openCollapse(3)}
                         >
-                          What is a financial derivative?{" "}
+                          What is a derivative?{" "}
                           <i className="oikos-icons icon-minimal-down float-right" />
                         </Button>
                       </h5>
                     </CardHeader>
                     <Collapse isOpen={collapse === 3}>
                       <CardBody>
-                        The term derivative refers to a type of financial contract whose value is dependent on an underlying asset, group of assets, or benchmark. Prices for derivatives derive from fluctuations in the underlying asset.
+                          The term derivative refers to a type of financial contract whose value is dependent on an underlying asset, group of assets, or benchmark. Prices for derivatives derive from fluctuations in the underlying asset. In the traditional financial world, derivatives are representations of stocks or bonds that a trader does not own but wants to buy or sell. In essence, if you want to profit from the price fluctuations of a stock that you don’t own, you can do this through a derivative.
                       </CardBody>
                     </Collapse>
                   </Card>
@@ -115,7 +104,7 @@ export default function FAQ() {
                     </CardHeader>
                     <Collapse isOpen={collapse === 4}>
                       <CardBody>
-                        Synthetic assets, sometimes referred to as synths, are a combination of cryptocurrencies and traditional derivative assets. In other words, synths are tokenized derivatives. ... With this popularity, new forms of assets emerge, which cater to the needs of a wider group of users. Among these new assets are synthetic assets.
+                          Synthetic assets, sometimes referred to as synths, are a combination of cryptocurrencies and traditional derivative assets. In other words, synths are tokenized derivatives. With this popularity, new forms of assets emerge, which cater to the needs of a wider group of users. Among these new assets are synthetic assets. Synthetic assets are essentially tokenized derivatives.
                       </CardBody>
                     </Collapse>
                   </Card>
@@ -135,7 +124,7 @@ export default function FAQ() {
                     </CardHeader>
                     <Collapse isOpen={collapse === 5}>
                       <CardBody>
-                        Instead of using contracts to create the chain between an underlying asset, the derivative product, synthetic assets tokenize the relationship. This means that synthetic assets can impart exposure to any asset in the world — all from within the crypto ecosystem.
+                      Instead of using contracts to create the chain between an underlying asset, the derivative product, synthetic assets tokenize the relationship. This means that synthetic assets can impart exposure to any asset in the world — all from within the crypto ecosystem. Synthetic assets, or tokenized derivatives, take this process one step further by adding the record for the derivative on the blockchain and essentially creating a cryptocurrency token for it.
                       </CardBody>
                     </Collapse>
                   </Card>
@@ -156,10 +145,10 @@ export default function FAQ() {
                     <Collapse isOpen={collapse === 1}>
                       <CardBody>
                       Traditional derivatives were once groundbreaking in their ability to unlock additional value from assets such as commodities. However, crypto synthetic assets are taking liquidity access to a whole new level. Here are just a few advantages synthetic assets have over traditional derivatives:
-                        -Anyone can issue them: Blockchain-based synthetic assets can be minted by anyone using open-source protocols like Synthetix and Mirror.
-                        -Worldwide liquidity: Synthetics can be traded on any crypto exchange in the world, including unstoppable decentralized exchanges.
-                        -Borderless transfers: Synthetic assets are blockchain assets like ERC-20 tokens; you can send and receive them between standard cryptocurrency wallets.
-                        -Frictionless movement: Switch between equities, synthetic silver/gold, and other assets without having to hold the underlying asset.
+                      - Anyone can issue them: Blockchain-based synthetic assets can be minted by anyone using open-source protocols like Oikos.
+                      - Worldwide liquidity: Synthetics can be traded on any crypto exchange in the world, including unstoppable decentralized exchanges like Oikos.Exchange.
+                      - Borderless transfers: Synthetic assets are blockchain assets like BEP-20 tokens; you can send and receive them between standard cryptocurrency wallets such as MetaMask or TrustWallet.
+                      - Frictionless movement: Switch between indices, synthetic commodities such as oil/gold, and other assets without having to hold the underlying asset.
                       </CardBody>
                     </Collapse>
                   </Card>
