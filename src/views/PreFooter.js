@@ -49,7 +49,7 @@ export default function Prefooter() {
           <div className="social-line social-line-big-icons">
             <Container>
               <Row>
-                <Col md="3">
+                <Col md="2">
                   <Button
                     className="btn-simple btn-icon btn-footer"
                     color="default"
@@ -65,7 +65,7 @@ export default function Prefooter() {
                     />
                   </Button>
                 </Col>
-                <Col md="3">
+                <Col md="2">
                   <Button
                     className="btn-simple btn-icon btn-footer"
                     color="default"
@@ -80,7 +80,7 @@ export default function Prefooter() {
                     />
                   </Button>
                 </Col>
-                <Col md="3">
+                <Col md="2">
                   <Button
                     className="btn-simple btn-icon btn-footer"
                     href="https://coinmarketcap.com/"
@@ -94,7 +94,39 @@ export default function Prefooter() {
                     />
                   </Button>
                 </Col>
-                <Col md="3">
+                <Col md="2">
+                  <Button
+                    className="btn-simple btn-icon btn-footer"
+                    color="default"
+                    href="https://vulkania.io/"
+                    target="_blank"
+                  >
+                    <img
+                      src={require("assets/img/vulkania-logo.png").default}
+                      style={{
+                        maxWidth:"100%"
+                      }} 
+                      alt="Vulkania"
+                    />
+                  </Button>
+                </Col>
+                <Col md="2">
+                  <Button
+                    className="btn-simple btn-icon btn-footer"
+                    color="default"
+                    href="https://derive.fi/"
+                    target="_blank"
+                  >
+                    <img
+                      src={require("assets/img/derive-type.svg").default}
+                      style={{
+                        maxWidth:"100%"
+                      }} 
+                      alt="Chainlink"
+                    />
+                  </Button>
+                </Col>
+                <Col md="2">
                   <Button
                     className="btn-simple btn-icon btn-footer"
                     color="default"
