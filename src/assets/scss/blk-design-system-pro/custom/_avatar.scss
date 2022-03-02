@@ -1,9 +1,3 @@
-//
-// Avatar
-//
-
-// General styles
-
 .avatar {
 	color: $white;
 	background-color: $gray-500;
@@ -26,9 +20,6 @@
     }
 }
 
-
-// Avatar size variations
-
 .avatar-lg {
 	width: 58px;
 	height: 58px;
@@ -39,4 +30,21 @@
 	width: 36px;
 	height: 36px;
 	font-size: $font-size-sm;
+}
+
+.avatar-group {
+	.avatar {
+		position: relative;
+		z-index: 2;
+		border: 2px solid $card-black-background;
+
+		&:hover {
+			z-index: 3;
+		}
+	}
+
+	.avatar + .avatar {
+		margin-left: -1rem;
+
+	}
 }

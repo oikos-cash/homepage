@@ -1,32 +1,6 @@
-/*!
-
-=========================================================
-* BLK Design System PRO React - v1.2.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-pro-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
-
-// reactstrap components
-// import {
-//
-// } from "reactstrap";
-
-// core components
 import Footer from "components/Footer.js";
 import ColorNavbar from "components/ColorNavbar.js";
-
-// Sections for this page
-// (we've divided this page into multiple react components to make it a bit more readable)
 import Header from "./Header.js";
 import Notifications from "./Notifications.js";
 import Content from "./Content.js";
@@ -38,7 +12,6 @@ import Synths from "./Synths.js";
 import PreFooter from "./PreFooter.js";
 import Subscribe from "./Subscribe.js";
 
-// CSS
 import "assets/css/styles.css"
 
 export default function Sections() {

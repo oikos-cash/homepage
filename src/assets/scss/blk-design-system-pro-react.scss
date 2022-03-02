@@ -1,20 +1,3 @@
-/*!
-
- =========================================================
- * BLK Design System PRO React - v1.2.0 based on BLK Design System PRO - v1.0.0
- =========================================================
-
- * Product Page: https://www.creative-tim.com/product/blk-design-system-pro-react
- * Copyright 2020 Creative Tim (http://www.creative-tim.com)
-
- * Designed by www.invisionapp.com Coded by www.creative-tim.com
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
-
  @import "blk-design-system-pro/custom/functions";
  @import "~bootstrap/scss/functions";
 
@@ -123,28 +106,12 @@
 
 // Cards
 
-@import 'blk-design-system-pro/custom/card';
-@import "blk-design-system-pro/custom/cards/card-chart";
-@import "blk-design-system-pro/custom/cards/card-map";
-@import "blk-design-system-pro/custom/cards/card-user";
-@import "blk-design-system-pro/custom/cards/card-task";
-@import "blk-design-system-pro/custom/cards/card-plain";
-@import "blk-design-system-pro/custom/cards/card-register";
-@import "blk-design-system-pro/custom/cards/card-stats";
-@import "blk-design-system-pro/custom/cards/card-chart";
-@import "blk-design-system-pro/cards/card-background";
-@import "blk-design-system-pro/cards/card-blog";
-@import "blk-design-system-pro/cards/card-profile";
-@import "blk-design-system-pro/cards/card-pricing";
-@import "blk-design-system-pro/cards/card-login";
-@import "blk-design-system-pro/cards/card-testimonials";
-@import "blk-design-system-pro/cards/card-product";
+@import 'blk-design-system-pro/custom/cards';
 
 
 // Avatars
 
-@import "blk-design-system-pro/avatars/avatar-group";
-@import "blk-design-system-pro/avatars/avatar";
+@import "blk-design-system-pro/custom/avatar";
 
 
 // Responsive
