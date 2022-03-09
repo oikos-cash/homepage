@@ -135,7 +135,9 @@ export default function Tools() {
                   className="card-background"
                   style={{
                     backgroundImage:
-                      "linear-gradient(135deg, #3c3c3c, #1a1a1a)",
+                    "url(" + require("assets/img/userGuide.png").default + ")",
+                    backgroundPosition:
+                      "right",
                   }}
                 >
                   <CardBody className="text-left">
