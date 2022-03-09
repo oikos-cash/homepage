@@ -1,6 +1,6 @@
-# Oikos Cash
+# Oikos Cash: Home V2
 
-## Decentralized Finance on BNB Chain
+### Decentralized Finance on BNB Chain
 
 #### Oikos is an initiative to bring key DeFi dApps to BSC.
 
@@ -8,13 +8,20 @@ Synthetic asset platform that provides on-chain exposure to fiat currencies, com
 
 Synths track the prices of various assets, allowing crypto-native and unbanked users to trade P2C (peer-to-contract) on Oikos Exchange without liquidity limitations.
 
-## Instructions
+### Instructions
 
 Requirements:
+
 > Node v12
 
 Install dependencies required to run using:
-```npm install```
+
+```
+npm install
+```
 
 Once installed, initialize with:
-```npm run start```
+
+```
+npm run start
+```
