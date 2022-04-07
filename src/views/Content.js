@@ -34,7 +34,7 @@ export default function Content() {
                     require("assets/img/features_3.svg").default
                   }
                   style={{
-                    maxWidth:"100%",
+                    maxWidth:"70%",
                     marginTop:"-5vh",
                   }}
                 />
