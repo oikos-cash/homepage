@@ -130,15 +130,16 @@ export default function Prefooter() {
                   <Button
                     className="btn-simple btn-icon btn-footer"
                     color="default"
-                    href="https://derive.fi/"
+                    href="https://xt.com/"
                     target="_blank"
                   >
                     <img
-                      src={require("assets/img/derive-type.svg").default}
+                      src={require("assets/img/xt.png").default}
                       style={{
-                        maxWidth:"100%"
+                        maxWidth:"80%",
+                        marginTop:"15%"
                       }} 
-                      alt="Chainlink"
+                      alt="XT.com"
                     />
                   </Button>
                 </Col>
