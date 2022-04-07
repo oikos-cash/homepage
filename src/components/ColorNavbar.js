@@ -42,7 +42,7 @@ export default function ColorNavbar() {
       document.documentElement.scrollTop > 299 ||
       document.body.scrollTop > 299
     ) {
-      setNavbarColor("navbar-transparent");
+      setNavbarColor("navbar-nav");
     } else if (
       document.documentElement.scrollTop < 300 ||
       document.body.scrollTop < 300
