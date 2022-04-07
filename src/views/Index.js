@@ -5,7 +5,6 @@ import Header from "./Header.js";
 import Notifications from "./Notifications.js";
 import Content from "./Content.js";
 import Highlights from "./Highlights.js";
-import Team from "./Team.js";
 import Tools from "./Tools.js";
 import FAQ from "./FAQ.js";
 import Synths from "./Synths.js";
@@ -45,7 +44,6 @@ export default function Sections() {
         <Highlights />
         <Synths />
         <Tools />
-        <Team />
         <PreFooter />
         <FAQ />
         {/* <Subscribe /> */}
