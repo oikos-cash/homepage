@@ -25,7 +25,12 @@ export default function Content() {
       <div className="section section-content" data-background-color="black">
         <Container>
           <Row>
-            <Col lg="6">
+            <Col 
+              lg="6"
+              style={{
+                textAlign:"center",
+              }}
+            >
               <div className="image-container">
                 <img
                   alt="..."
