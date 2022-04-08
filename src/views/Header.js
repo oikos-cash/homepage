@@ -42,7 +42,7 @@ export default function Headers() {
                 <Col className="mr-auto text-left mt-5" lg="5" md="7">
                   <h6 className="category">Decentralized Finance on Binance Smart Chain</h6>
                   <h1 className="title">
-                  Oikos is an initiative to bring key DeFi dApps to BSC
+                    Oikos is a derivative trading platform deployed on BSC
                   </h1>
                   <br />
                   <div className="buttons">
