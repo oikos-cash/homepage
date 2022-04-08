@@ -40,7 +40,6 @@ export default function Content() {
                   }
                   style={{
                     maxWidth:"70%",
-                    marginTop:"-5vh",
                   }}
                 />
               </div>
