@@ -47,7 +47,7 @@ export default function Headers() {
                   <br />
                   <div className="buttons">
                     <Button
-                      className="btn-round"
+                      className="btn-default"
                       color="info"
                       href="https://pancakeswap.finance/swap/0x18aCf236eB40c0d4824Fb8f2582EBbEcD325Ef6a?inputCurrency=BNB"
                       size="lg"
@@ -56,7 +56,7 @@ export default function Headers() {
                       Buy OKS
                     </Button>
                     <Button
-                      className="btn-round mr-3"
+                      className="btn-default mr-3"
                       href="https://minter.oikos.cash/"
                       size="lg"
                       target="_blank"
