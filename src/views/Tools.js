@@ -49,7 +49,7 @@ export default function Tools() {
             </Row>
             <div className="space-50" />
             <Row>
-              <Col lg="3">
+              <Col lg="4">
                 <Card
                   className="card-background"
                   style={{
@@ -76,34 +76,7 @@ export default function Tools() {
                   </CardBody>
                 </Card>
               </Col>
-              <Col lg="3">
-                <Card
-                  className="card-background"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/exchange.png").default + ")",
-                    backgroundPosition:
-                      "right",
-                  }}
-                >
-                  <CardBody className="text-left">
-                    <h6 className="card-category">
-                    </h6>
-                    <a href="https://oikos.exchange" target="_blank">
-                      <CardTitle tag="h2">Exchange</CardTitle>
-                    </a>
-                    <h6 className="desc">Dapp</h6>
-                    <Button
-                      color="info"
-                      href="https://oikos.exchange/"
-                      target="_blank"
-                    >
-                      Visit
-                    </Button>
-                  </CardBody>
-                </Card>
-              </Col>
-              <Col lg="3">
+              <Col lg="4">
                 <Card
                   className="card-background"
                   style={{
@@ -116,10 +89,64 @@ export default function Tools() {
                   <CardBody className="text-left">
                     <h6 className="card-category">
                     </h6>
-                    <a href="https://stats.oikos.cash/" target="_blank">
+                    <a href="https://minter.oikos.cash/" target="_blank">
                       <CardTitle tag="h2">Stats</CardTitle>
                     </a>
                     <h6 className="desc">Analytics</h6>
+                    <Button
+                      color="info"
+                      href="https://minter.oikos.cash/"
+                      target="_blank"
+                    >
+                      Visit
+                    </Button>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col lg="4">
+                <Card
+                  className="card-background"
+                  style={{
+                    backgroundImage:
+                    "url(" + require("assets/img/governance.png").default + ")",
+                    backgroundPosition:
+                      "right",
+                  }}
+                >
+                  <CardBody className="text-left">
+                    <h6 className="card-category">
+                    </h6>
+                    <a href="https://oikos.exchange" target="_blank">
+                      <CardTitle tag="h2">DAO</CardTitle>
+                    </a>
+                    <h6 className="desc">Governance</h6>
+                    <Button
+                      color="info"
+                      href="https://oikos.exchange/"
+                      target="_blank"
+                    >
+                      Visit
+                    </Button>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col lg="6">
+                <Card
+                  className="card-background"
+                  style={{
+                    backgroundImage:
+                    "url(" + require("assets/img/exchange.png").default + ")",
+                    backgroundPosition:
+                      "left",
+                  }}
+                >
+                  <CardBody className="text-left">
+                    <h6 className="card-category">
+                    </h6>
+                    <a href="https://stats.oikos.cash/" target="_blank">
+                      <CardTitle tag="h3">Exchange</CardTitle>
+                    </a>
+                    <h6 className="desc">dApp</h6>
                     <Button
                       color="info"
                       href="https://stats.oikos.cash/"
@@ -130,19 +157,19 @@ export default function Tools() {
                   </CardBody>
                 </Card>
               </Col>
-              <Col lg="3">
+              <Col lg="6">
                 <Card
                   className="card-background"
                   style={{
                     backgroundImage:
-                      "linear-gradient(135deg, #3c3c3c, #1a1a1a)",
+                    "url(" + require("assets/img/userguide.png").default + ")",
                   }}
                 >
                   <CardBody className="text-left">
                     <h6 className="card-category">
                     </h6>
                     <a href="https://dashboard.oikos.cash/" target="_blank">
-                      <CardTitle tag="h2">User Guide</CardTitle>
+                      <CardTitle tag="h3">User Guide</CardTitle>
                     </a>
                     <h6 className="desc">Tutorials</h6>
                     <Button

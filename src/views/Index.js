@@ -10,7 +10,6 @@ import Tools from "./Tools.js";
 import FAQ from "./FAQ.js";
 import Synths from "./Synths.js";
 import PreFooter from "./PreFooter.js";
-import Subscribe from "./Subscribe.js";
 
 import "assets/css/styles.css"
 
@@ -48,7 +47,6 @@ export default function Sections() {
         <Team />
         <PreFooter />
         <FAQ />
-        {/* <Subscribe /> */}
         <Footer />
       </div>
     </>

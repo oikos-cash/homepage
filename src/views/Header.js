@@ -1,21 +1,5 @@
-/*!
-
-=========================================================
-* BLK Design System PRO React - v1.2.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-pro-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
-// reactstrap components
+
 import {
   Button,
   Container,
@@ -69,7 +53,7 @@ export default function Headers() {
                   <div className="iframe-container">
                     <img
                       alt="..."
-                      src={require("assets/img/header-image.png").default}
+                      src={require("assets/img/header-video.gif").default}
                       style={{
                         marginTop:"-2.5vh",
                       }}
